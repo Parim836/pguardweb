@@ -2,15 +2,15 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
   align-items: start;
-  gap: 36px;
-  max-width: 1120px;
-  margin: 0 auto 12px;
-  padding: 16px 0;
+  gap: 2.25rem;
+  max-width: 70rem;
+  margin: 0 auto 0.75rem;
+  padding: 1rem 0;
 }
 .registration-content h2 {
   margin: 0;
   color: #10251b;
-  font-size: clamp(24px, 2.2vw, 30px);
+  font-size: clamp(1.5rem, 2.2vw, 1.875rem);
   font-weight: 600;
   line-height: 1.35;
 }
@@ -20,7 +20,7 @@
 .registration-steps {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 24px;
+  gap: 1.5rem;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -32,44 +32,44 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .registration-step-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 0.75rem;
   background: #e0f0e6;
   color: #08783f;
 }
 .registration-step-number {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
   color: #b5cebf;
 }
 .registration-step h3 {
-  margin: 0 0 9px;
+  margin: 0 0 0.5625rem;
   color: #23342b;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
 }
 .registration-step p {
   margin: 0;
   color: #718078;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.85;
 }
 @media (max-width: 960px) {
   .registration-section {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 1.5rem;
   }
 }
 @media (max-width: 680px) {
   .registration-steps {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 28px 20px;
+    gap: 1.75rem 1.25rem;
   }
 }

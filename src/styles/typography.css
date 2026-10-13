@@ -1,6 +1,6 @@
 :root {
   --description-font: "Mitr", sans-serif;
-  --description-size: 16px;
+  --description-size: 1rem;
   --description-weight: 300;
   --description-line-height: 1.8;
 }
@@ -9,7 +9,7 @@
    Phone previews retain their own compact app typography. Keep existing colors. */
 #root
   .app
-  p:not(:where(.smart-search-phone *, .phone3d-wrapper *, .phone3d-scene *)),
+  p:not(:where(.smart-search-phone *, .phone3d-wrapper *, .phone3d-scene *, .hero-phone-stage *)),
 #root
   .app
   :is(

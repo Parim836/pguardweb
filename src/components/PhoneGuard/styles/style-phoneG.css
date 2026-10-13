@@ -12,66 +12,66 @@
 
     align-items: center;
 
-    gap: 5px;
+    gap: 0.3125rem;
 
     height: 100%;
   }
 
   .smart-search-phone .signal-icon {
-    height: 13px;
+    height: 0.8125rem;
 
     display: flex;
 
     align-items: flex-end;
 
-    gap: 2px;
+    gap: 0.125rem;
   }
 
   .smart-search-phone .signal-icon span {
     display: block;
 
-    width: 3px;
+    width: 0.1875rem;
 
-    border-radius: 2px;
+    border-radius: 0.125rem;
 
     background: #111713;
   }
 
   .smart-search-phone .signal-icon span:nth-child(1) {
-    height: 4px;
+    height: 0.25rem;
   }
 
   .smart-search-phone .signal-icon span:nth-child(2) {
-    height: 7px;
+    height: 0.4375rem;
   }
 
   .smart-search-phone .signal-icon span:nth-child(3) {
-    height: 10px;
+    height: 0.625rem;
   }
 
   .smart-search-phone .signal-icon span:nth-child(4) {
-    height: 13px;
+    height: 0.8125rem;
   }
 
   .smart-search-phone .battery-icon {
     position: relative;
 
-    width: 20px;
-    height: 10px;
+    width: 1.25rem;
+    height: 0.625rem;
 
-    border: 1.5px solid #111713;
+    border: 0.09375rem solid #111713;
 
-    border-radius: 3px;
+    border-radius: 0.1875rem;
   }
 
   .smart-search-phone .battery-level {
     position: absolute;
 
-    left: 2px;
-    top: 2px;
+    left: 0.125rem;
+    top: 0.125rem;
 
-    width: 13px;
-    height: 4px;
+    width: 0.8125rem;
+    height: 0.25rem;
 
     border-radius: 1px;
 
@@ -81,13 +81,13 @@
   .smart-search-phone .battery-tip {
     position: absolute;
 
-    right: -3px;
-    top: 3px;
+    right: -0.1875rem;
+    top: 0.1875rem;
 
-    width: 2px;
-    height: 4px;
+    width: 0.125rem;
+    height: 0.25rem;
 
-    border-radius: 0 2px 2px 0;
+    border-radius: 0 0.125rem 0.125rem 0;
 
     background: #111713;
   }
@@ -95,16 +95,16 @@
   .smart-search-phone .dynamic-island {
     position: absolute;
 
-    top: 10px;
+    top: 0.625rem;
 
     left: 50%;
 
     transform: translateX(-50%);
 
-    width: 100px;
-    height: 27px;
+    width: 6.25rem;
+    height: 1.6875rem;
 
-    border-radius: 18px;
+    border-radius: 1.125rem;
 
     background: #020302;
 
@@ -114,17 +114,17 @@
   .smart-search-phone .dynamic-camera {
     position: absolute;
 
-    right: 14px;
-    top: 8px;
+    right: 0.875rem;
+    top: 0.5rem;
 
-    width: 9px;
-    height: 9px;
+    width: 0.5625rem;
+    height: 0.5625rem;
 
     border-radius: 50%;
 
     background: #17251d;
 
-    box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
+    box-shadow: inset 0 0 0.1875rem rgba(255, 255, 255, 0.3);
   }
 
   .smart-search-phone .app-screen {
@@ -134,7 +134,7 @@
 
     overflow: visible;
 
-    border-radius: 43px;
+    border-radius: 2.6875rem;
 
     background: #ffffff;
 
@@ -155,7 +155,7 @@
 }
 
 .guard-phone-shell .phone3d {
-  transform: translateY(220px);
+  transform: translateY(13.75rem);
   transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 
   will-change: transform;
@@ -175,11 +175,11 @@
 .guard-app-screen .status-bar {
   position: absolute;
 
-  top: 10px;
-  left: 18px;
-  right: 18px;
+  top: 0.625rem;
+  left: 1.125rem;
+  right: 1.125rem;
 
-  height: 25px;
+  height: 1.5625rem;
 
   display: flex;
   align-items: center;
@@ -201,64 +201,64 @@
 .guard-app-screen .status-icons {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 0.3125rem;
   height: 100%;
 }
 
 .guard-app-screen .signal-icon {
-  height: 13px;
+  height: 0.8125rem;
 
   display: flex;
   align-items: flex-end;
 
-  gap: 2px;
+  gap: 0.125rem;
 }
 
 .guard-app-screen .signal-icon span {
   display: block;
 
-  width: 3px;
+  width: 0.1875rem;
 
-  border-radius: 2px;
+  border-radius: 0.125rem;
 
   background: #111713;
 }
 
 .guard-app-screen .signal-icon span:nth-child(1) {
-  height: 4px;
+  height: 0.25rem;
 }
 
 .guard-app-screen .signal-icon span:nth-child(2) {
-  height: 7px;
+  height: 0.4375rem;
 }
 
 .guard-app-screen .signal-icon span:nth-child(3) {
-  height: 10px;
+  height: 0.625rem;
 }
 
 .guard-app-screen .signal-icon span:nth-child(4) {
-  height: 13px;
+  height: 0.8125rem;
 }
 
 .guard-app-screen .battery-icon {
   position: relative;
 
-  width: 20px;
-  height: 10px;
+  width: 1.25rem;
+  height: 0.625rem;
 
-  border: 1.5px solid #111713;
+  border: 0.09375rem solid #111713;
 
-  border-radius: 3px;
+  border-radius: 0.1875rem;
 }
 
 .guard-app-screen .battery-level {
   position: absolute;
 
-  left: 2px;
-  top: 2px;
+  left: 0.125rem;
+  top: 0.125rem;
 
-  width: 13px;
-  height: 4px;
+  width: 0.8125rem;
+  height: 0.25rem;
 
   border-radius: 1px;
 
@@ -268,13 +268,13 @@
 .guard-app-screen .battery-tip {
   position: absolute;
 
-  right: -3px;
-  top: 3px;
+  right: -0.1875rem;
+  top: 0.1875rem;
 
-  width: 2px;
-  height: 4px;
+  width: 0.125rem;
+  height: 0.25rem;
 
-  border-radius: 0 2px 2px 0;
+  border-radius: 0 0.125rem 0.125rem 0;
 
   background: #111713;
 }
@@ -282,15 +282,15 @@
 .guard-app-screen .dynamic-island {
   position: absolute;
 
-  top: 10px;
+  top: 0.625rem;
   left: 50%;
 
   transform: translateX(-50%);
 
-  width: 100px;
-  height: 27px;
+  width: 6.25rem;
+  height: 1.6875rem;
 
-  border-radius: 18px;
+  border-radius: 1.125rem;
 
   background: #020302;
 
@@ -300,17 +300,17 @@
 .guard-app-screen .dynamic-camera {
   position: absolute;
 
-  right: 14px;
-  top: 8px;
+  right: 0.875rem;
+  top: 0.5rem;
 
-  width: 9px;
-  height: 9px;
+  width: 0.5625rem;
+  height: 0.5625rem;
 
   border-radius: 50%;
 
   background: #17251d;
 
-  box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 0 0.1875rem rgba(255, 255, 255, 0.3);
 }
 
 .guard-app-screen {
@@ -320,7 +320,7 @@
 
   overflow: hidden !important;
 
-  border-radius: 43px;
+  border-radius: 2.6875rem;
 
   background: #f7f9f8;
 
@@ -336,7 +336,7 @@
 }
 
 .guard-phone-shell .phone3d {
-  transform: translateY(220px);
+  transform: translateY(13.75rem);
 
   transition: transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 
@@ -354,11 +354,11 @@
   left: -1px;
   right: -1px;
 
-  width: calc(100% + 2px);
+  width: calc(100% + 0.125rem);
 
-  height: 112px;
+  height: 7rem;
 
-  padding: 39px 20px 14px;
+  padding: 2.4375rem 1.25rem 0.875rem;
 
   display: flex;
 
@@ -398,7 +398,7 @@
 }
 
 .guard-header-brand span {
-  margin-top: 7px;
+  margin-top: 0.4375rem;
 
   color: #b9d8c8;
 
@@ -412,7 +412,7 @@
 
   align-items: center;
 
-  gap: 13px;
+  gap: 0.8125rem;
 
   position: relative;
 
@@ -420,24 +420,24 @@
 }
 
 .guard-header-nav svg {
-  width: 18px;
-  height: 18px;
+  width: 1.125rem;
+  height: 1.125rem;
 
-  flex: 0 0 18px;
+  flex: 0 0 1.125rem;
 
   stroke-width: 2.5;
 }
 
 .guard-header-nav .guard-avatar {
-  width: 30px !important;
-  min-width: 30px !important;
-  max-width: 30px !important;
+  width: 1.875rem !important;
+  min-width: 1.875rem !important;
+  max-width: 1.875rem !important;
 
-  height: 30px !important;
-  min-height: 30px !important;
-  max-height: 30px !important;
+  height: 1.875rem !important;
+  min-height: 1.875rem !important;
+  max-height: 1.875rem !important;
 
-  flex: 0 0 30px;
+  flex: 0 0 1.875rem;
 
   display: grid !important;
 
@@ -468,13 +468,13 @@
 .guard-main {
   position: absolute;
 
-  top: 112px;
+  top: 7rem;
 
   right: 0;
-  bottom: 62px;
+  bottom: 3.875rem;
   left: 0;
 
-  padding: 9px 10px;
+  padding: 0.5625rem 0.625rem;
 
   overflow: hidden;
 
@@ -488,14 +488,14 @@
 
   align-items: center;
 
-  gap: 7px;
+  gap: 0.4375rem;
 
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
 }
 
 .guard-greeting-avatar {
-  width: 40px;
-  height: 40px;
+  width: 2.5rem;
+  height: 2.5rem;
 
   display: grid;
   place-items: center;
@@ -526,7 +526,7 @@
 }
 
 .guard-greeting strong {
-  margin-top: -2px;
+  margin-top: -0.125rem;
 
   color: #26322d;
 
@@ -537,21 +537,21 @@
 }
 
 .guard-ready-card {
-  min-height: 130px;
+  min-height: 8.125rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  padding: 18px 12px 14px;
+  padding: 1.125rem 0.75rem 0.875rem;
 
-  border-radius: 13px;
+  border-radius: 0.8125rem;
 
   background: #063d28;
 
   color: #fff;
 
-  box-shadow: 0 4px 10px rgba(6, 61, 40, 0.12);
-  margin-top: 10px;
+  box-shadow: 0 0.25rem 0.625rem rgba(6, 61, 40, 0.12);
+  margin-top: 0.625rem;
 }
 
 .guard-ready-top {
@@ -567,7 +567,7 @@
 
   font-weight: var(--phone-heading-weight);
   margin-top: 0px;
-  margin-left: 9px;
+  margin-left: 0.5625rem;
   font-family: var(--phone-font-family);
 }
 
@@ -575,16 +575,16 @@
   color: #969696;
 
   font-size: var(--phone-body-size);
-  margin-top: -15px;
-  margin-left: 9px;
+  margin-top: -0.9375rem;
+  margin-left: 0.5625rem;
   font-family: var(--phone-font-family);
 }
 
 .guard-toggle {
-  width: 45px;
-  height: 25px;
+  width: 2.8125rem;
+  height: 1.5625rem;
 
-  padding: 5px;
+  padding: 0.3125rem;
 
   display: flex;
 
@@ -592,16 +592,16 @@
 
   justify-content: flex-end;
 
-  border-radius: 25px;
+  border-radius: 1.5625rem;
 
   background: #f6a30b;
-  margin-top: 9px;
-  margin-right: 9px;
+  margin-top: 0.5625rem;
+  margin-right: 0.5625rem;
 }
 
 .guard-toggle span {
-  width: 17px;
-  height: 17px;
+  width: 1.0625rem;
+  height: 1.0625rem;
 
   border-radius: 50%;
 
@@ -626,26 +626,26 @@
 
 .guard-ready-bottom .guard-divider {
   position: relative;
-  top: -12px;
-  width: calc(100% - 20px);
+  top: -0.75rem;
+  width: calc(100% - 1.25rem);
   height: 1px;
-  margin: 0 auto 6px auto;
+  margin: 0 auto 0.375rem auto;
   background: rgba(177, 177, 177, 0.8);
 }
 
 .guard-ready-bottom .guard-ready-location > span {
   display: inline-flex;
   align-items: center;
-  gap: 3px;
+  gap: 0.1875rem;
 }
 
 .guard-ready-bottom .guard-ready-location > strong {
   display: block;
-  width: calc(100% - 10px);
+  width: calc(100% - 0.625rem);
   text-align: right;
   font-size: var(--phone-body-size);
   font-weight: var(--phone-heading-weight);
-  margin-top: -18px;
+  margin-top: -1.125rem;
 }
 
 .guard-stats {
@@ -653,15 +653,15 @@
 
   grid-template-columns: repeat(3, 1fr);
 
-  gap: 6px;
+  gap: 0.375rem;
 
-  margin-top: 9px;
+  margin-top: 0.5625rem;
 }
 
 .guard-stat {
-  min-height: 78px;
+  min-height: 4.875rem;
 
-  padding: 6px 4px;
+  padding: 0.375rem 0.25rem;
 
   display: flex;
 
@@ -673,7 +673,7 @@
 
   border: 1px solid #e0e6e3;
 
-  border-radius: 7px;
+  border-radius: 0.4375rem;
 
   background: #fff;
 }
@@ -687,7 +687,7 @@
 }
 
 .guard-stat span {
-  margin-top: 3px;
+  margin-top: 0.1875rem;
 
   color: #828282;
 
@@ -697,7 +697,7 @@
 }
 
 .guard-job-section {
-  margin-top: 9px;
+  margin-top: 0.5625rem;
 }
 
 .guard-section-title {
@@ -707,7 +707,7 @@
 
   justify-content: space-between;
 
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 
 .guard-section-title strong {
@@ -726,7 +726,7 @@
 }
 
 .guard-empty-card {
-  min-height: 100px;
+  min-height: 6.25rem;
 
   display: flex;
 
@@ -738,7 +738,7 @@
 
   border: 1px dashed #d5ddd8;
 
-  border-radius: 7px;
+  border-radius: 0.4375rem;
 
   background: rgba(255, 255, 255, 0.35);
 
@@ -746,10 +746,10 @@
 }
 
 .guard-empty-card svg {
-  margin-bottom: 4px;
+  margin-bottom: 0.25rem;
 
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
 
   stroke-width: 1.8;
 }
@@ -759,7 +759,7 @@
 }
 
 .guard-inspection {
-  min-height: 60px;
+  min-height: 3.75rem;
 }
 
 .guard-bottom-nav {
@@ -767,11 +767,11 @@
 
   right: 0;
 
-  bottom: 9px;
+  bottom: 0.5625rem;
 
   left: 0;
 
-  height: 62px;
+  height: 3.875rem;
 
   display: grid;
 
@@ -779,7 +779,7 @@
 
   align-items: end;
 
-  padding: 7px 7px 5px;
+  padding: 0.4375rem 0.4375rem 0.3125rem;
 
   border-top: 1px solid #dce5e0;
 
@@ -797,7 +797,7 @@
 
   align-items: center;
 
-  gap: 3px;
+  gap: 0.1875rem;
 
   color: #91a19a;
 
@@ -807,8 +807,8 @@
 }
 
 .guard-nav-item svg {
-  width: 19px;
-  height: 19px;
+  width: 1.1875rem;
+  height: 1.1875rem;
 
   stroke-width: 2.2;
 }
@@ -824,8 +824,8 @@
 }
 
 .guard-nav-center {
-  width: 58px;
-  height: 58px;
+  width: 3.625rem;
+  height: 3.625rem;
 
   justify-self: center;
 
@@ -835,7 +835,7 @@
 
   align-self: start;
 
-  margin-top: -29px;
+  margin-top: -1.8125rem;
 
   border-radius: 50%;
 
@@ -843,12 +843,12 @@
 
   color: #26322d;
 
-  box-shadow: 0 8px 18px rgba(123, 83, 0, 0.2);
+  box-shadow: 0 0.5rem 1.125rem rgba(123, 83, 0, 0.2);
 }
 
 .guard-nav-center svg {
-  width: 25px;
-  height: 25px;
+  width: 1.5625rem;
+  height: 1.5625rem;
 
   stroke-width: 2.2;
 }

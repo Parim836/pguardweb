@@ -15,8 +15,8 @@ function Contact() {
           </p>
 
           <div className="contact-item">
-            <b>{t("โทรศัพท์")}</b>
-            <span>063-336-0777</span>
+            <b>Facebook Page</b>
+            <span>PGUARD</span>
           </div>
 
           <div className="contact-item">

@@ -1,16 +1,16 @@
 .rating-section {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(17.5rem, 0.85fr);
   align-items: center;
-  gap: clamp(36px, 5vw, 80px);
-  max-width: 1120px;
-  margin: 24px auto 0;
-  padding: 32px 0 16px;
+  gap: clamp(2.25rem, 5vw, 5rem);
+  max-width: 70rem;
+  margin: 1.5rem auto 0;
+  padding: 2rem 0 1rem;
 }
 .rating-content h2 {
-  margin: 0 0 18px;
+  margin: 0 0 1.125rem;
   color: #10251b;
-  font-size: clamp(30px, 3.5vw, 42px);
+  font-size: clamp(1.875rem, 3.5vw, 2.625rem);
   font-weight: 600;
   line-height: 1.35;
 }
@@ -18,40 +18,40 @@
   color: #08783f;
 }
 .rating-lead {
-  margin: 0 0 30px;
+  margin: 0 0 1.875rem;
   color: #718078;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.9;
 }
 .rating-benefits {
   display: grid;
-  gap: 22px;
+  gap: 1.375rem;
 }
 .rating-benefits > div {
   display: flex;
   align-items: flex-start;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 .rating-benefit-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 0.75rem;
   background: #e8f5ee;
   color: #08783f;
 }
 .rating-benefits h3 {
-  margin: 0 0 5px;
-  font-size: 17px;
+  margin: 0 0 0.3125rem;
+  font-size: 1.0625rem;
   font-weight: 500;
   color: #23342b;
 }
 .rating-benefits p {
   margin: 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.85;
   color: #718078;
 }
@@ -59,44 +59,44 @@
   position: relative;
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 1rem;
   overflow: hidden;
-  margin-top: 32px;
-  padding: 26px;
-  border-radius: 18px;
+  margin-top: 2rem;
+  padding: 1.625rem;
+  border-radius: 1.125rem;
   background: #075738;
   color: white;
 }
 .rating-reward-icon {
   display: flex;
-  padding: 12px;
-  border-radius: 14px;
+  padding: 0.75rem;
+  border-radius: 0.875rem;
   background: #ffffff12;
   color: #f2cb70;
   flex-shrink: 0;
 }
 .rating-reward-label {
-  font-size: 12px;
-  letter-spacing: 2px;
+  font-size: 0.75rem;
+  letter-spacing: 0.125rem;
   color: #f2cb70;
 }
 .rating-reward h3 {
   position: relative;
-  margin: 5px 0 8px;
-  font-size: 21px;
+  margin: 0.3125rem 0 0.5rem;
+  font-size: 1.3125rem;
   font-weight: 500;
 }
 .rating-reward p {
   position: relative;
   margin: 0;
   color: #d9ece2;
-  font-size: 13px;
+  font-size: 0.8125rem;
   line-height: 1.8;
 }
 .rating-reward-star {
   position: absolute;
-  right: -12px;
-  top: -13px;
+  right: -0.75rem;
+  top: -0.8125rem;
   color: #f2cb7030;
   transform: rotate(14deg);
 }
@@ -110,15 +110,15 @@
 @media (max-width: 760px) {
   .rating-section {
     grid-template-columns: 1fr;
-    gap: 24px;
-    margin-top: 16px;
-    padding-top: 24px;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
   }
   .rating-visual {
-    width: min(380px, 100%);
+    width: min(23.75rem, 100%);
     margin: 0 auto;
   }
   .rating-reward {
-    padding: 22px 18px;
+    padding: 1.375rem 1.125rem;
   }
 }

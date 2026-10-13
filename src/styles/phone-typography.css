@@ -1,9 +1,9 @@
 :root {
   --phone-font-family: "Mitr", sans-serif;
-  --phone-body-size: 12px;
-  --phone-header-size: 13px;
-  --phone-heading-size: 15px;
-  --phone-score-size: 42px;
+  --phone-body-size: 0.75rem;
+  --phone-header-size: 0.8125rem;
+  --phone-heading-size: 0.9375rem;
+  --phone-score-size: 2.625rem;
   --phone-body-weight: 400;
   --phone-heading-weight: 500;
 }

@@ -1,8 +1,8 @@
 .rating-app-screen {
   position: absolute;
-  inset: 0 0 12px;
+  inset: 0 0 0.75rem;
   overflow: clip;
-  border-radius: 43px 43px 34px 34px;
+  border-radius: 2.6875rem 2.6875rem 2.125rem 2.125rem;
   background: #fff;
   color: #23342b;
 }
@@ -12,8 +12,8 @@
 .rating-app-header {
   display: flex;
   align-items: center;
-  gap: 14px;
-  padding: 55px 18px 18px;
+  gap: 0.875rem;
+  padding: 3.4375rem 1.125rem 1.125rem;
   background: #075738;
   color: white;
 }
@@ -22,7 +22,7 @@
   font-weight: var(--phone-heading-weight);
 }
 .rating-app-body {
-  padding: 13px 20px 23px;
+  padding: 0.8125rem 1.25rem 1.4375rem;
 }
 .rating-app-label {
   font-size: var(--phone-heading-size);
@@ -31,19 +31,19 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 9px;
-  padding: 10px 0 30px;
+  gap: 0.5625rem;
+  padding: 0.625rem 0 1.875rem;
 }
 .rating-app-summary > strong {
   font-size: var(--phone-score-size);
   font-weight: 600;
   line-height: 1.2;
-  letter-spacing: 3px;
+  letter-spacing: 0.1875rem;
   color: #10251b;
 }
 .rating-stars {
   display: flex;
-  gap: 3px;
+  gap: 0.1875rem;
   color: #e5a21c;
 }
 .rating-app-summary small {
@@ -52,13 +52,13 @@
 }
 .rating-score-list {
   display: grid;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 .rating-score-row {
   display: grid;
-  grid-template-columns: 85px minmax(0, 1fr) 22px;
+  grid-template-columns: 5.3125rem minmax(0, 1fr) 1.375rem;
   align-items: center;
-  gap: 10px;
+  gap: 0.625rem;
   font-size: var(--phone-body-size);
 }
 .rating-score-row b {
@@ -66,9 +66,9 @@
   font-weight: var(--phone-heading-weight);
 }
 .rating-score-track {
-  height: 5px;
+  height: 0.3125rem;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 0.3125rem;
   background: #e4ebe6;
 }
 .rating-score-track > span {
@@ -79,23 +79,23 @@
   background: #e5a21c;
 }
 .rating-customer-review {
-  margin-top: 35px;
-  padding-bottom: 18px;
+  margin-top: 2.1875rem;
+  padding-bottom: 1.125rem;
   border-bottom: 1px solid #dfe8e2;
 }
 .rating-customer-review + .rating-customer-review {
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 .rating-review-meta {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
   font-size: var(--phone-body-size);
   color: #718078;
 }
 .rating-review-avatar {
   display: flex;
-  padding: 7px;
+  padding: 0.4375rem;
   border-radius: 50%;
   background: #dcefe4;
   color: #08783f;
@@ -103,12 +103,12 @@
 .rating-review-score {
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 0.25rem;
   margin-left: auto;
   color: #e5a21c;
 }
 .rating-customer-review p {
-  margin: 12px 0 0;
+  margin: 0.75rem 0 0;
   font-size: var(--phone-body-size);
   line-height: 1.8;
   color: #718078;

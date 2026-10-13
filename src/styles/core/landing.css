@@ -3,7 +3,7 @@
 
   background: #ffffff;
 
-  min-height: 620px;
+  min-height: 38.75rem;
   align-items: center;
 }
 
@@ -26,21 +26,21 @@
 
   font-weight: 600;
 
-  letter-spacing: 1.5px;
+  letter-spacing: 0.09375rem;
 
-  font-size: clamp(12px, 1vw, 13px);
+  font-size: clamp(0.75rem, 1vw, 0.8125rem);
 }
 
 .hero h1 {
   font-family: "Mitr", sans-serif;
 
-  font-size: clamp(36px, 4vw, 54px);
+  font-size: clamp(2.25rem, 4vw, 3.375rem);
 
   font-weight: 500;
 
   line-height: 1.15;
 
-  margin: 15px 0;
+  margin: 0.9375rem 0;
 
   overflow-wrap: break-word;
 }
@@ -51,7 +51,7 @@ h2 span {
 }
 
 .hero-copy > p {
-  max-width: 650px;
+  max-width: 40.625rem;
 
   width: 100%;
 
@@ -67,15 +67,15 @@ h2 span {
 .actions {
   display: flex;
 
-  gap: 12px;
+  gap: 0.75rem;
 
-  margin: 28px 0;
+  margin: 1.75rem 0;
 
   flex-wrap: wrap;
 }
 
 .btn {
-  padding: 13px 20px;
+  padding: 0.8125rem 1.25rem;
 }
 
 .store-row {
@@ -83,9 +83,9 @@ h2 span {
 
   flex-direction: row;
 
-  gap: 12px;
+  gap: 0.75rem;
 
-  margin-top: 12px;
+  margin-top: 0.75rem;
 
   flex-wrap: wrap;
 
@@ -99,17 +99,17 @@ h2 span {
 
   align-items: center;
 
-  gap: 10px;
+  gap: 0.625rem;
 
   background: #111;
 
   color: #fff !important;
 
-  border-radius: 10px;
+  border-radius: 0.625rem;
 
-  padding: 9px 16px;
+  padding: 0.5625rem 1rem;
 
-  min-width: 145px;
+  min-width: 9.0625rem;
 
   max-width: 100%;
 
@@ -128,7 +128,7 @@ h2 span {
 }
 
 .store-btn > b i {
-  font-size: 28px;
+  font-size: 1.75rem;
   line-height: 1;
 }
 
@@ -150,19 +150,19 @@ h2 span {
 .store-btn > span small {
   display: block;
 
-  font-size: 12px;
+  font-size: 0.75rem;
 
   font-weight: 300;
 
   line-height: 1.2;
 
-  margin: 0 0 2px;
+  margin: 0 0 0.125rem;
 }
 
 .store-btn > span strong {
   display: block;
 
-  font-size: 16px;
+  font-size: 1rem;
 
   font-weight: 400;
 
@@ -172,11 +172,11 @@ h2 span {
 }
 
 .store-btn .bi-apple {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .store-btn .bi-google-play {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .primary {
@@ -200,11 +200,11 @@ h2 span {
 .trust-row {
   display: flex;
 
-  gap: 25px;
+  gap: 1.5625rem;
 
   flex-wrap: wrap;
 
-  font-size: 12px;
+  font-size: 0.75rem;
 
   color: #546159;
 }
@@ -214,13 +214,13 @@ h2 span {
 
   align-items: center;
 
-  gap: 6px;
+  gap: 0.375rem;
 
   min-width: 0;
 }
 
 .trust-row svg {
-  width: 17px;
+  width: 1.0625rem;
 
   color: var(--green);
 
@@ -232,7 +232,7 @@ h2 span {
 
   min-width: 0;
 
-  height: clamp(450px, 40vw, 570px);
+  height: clamp(28.125rem, 40vw, 35.625rem);
 
   position: relative;
 
@@ -246,9 +246,9 @@ h2 span {
 .hero-glow {
   position: absolute;
 
-  width: min(600px, 100%);
+  width: min(37.5rem, 100%);
 
-  max-width: 600px;
+  max-width: 37.5rem;
 
   aspect-ratio: 1 / 1;
 
@@ -258,15 +258,15 @@ h2 span {
 }
 
 .phone {
-  width: min(275px, 80%);
+  width: min(17.1875rem, 80%);
 
   height: auto;
 
   aspect-ratio: 275 / 520;
 
-  border: 9px solid #14201b;
+  border: 0.5625rem solid #14201b;
 
-  border-radius: 40px;
+  border-radius: 2.5rem;
 
   background: #101914;
 
@@ -276,7 +276,7 @@ h2 span {
 
   z-index: 2;
 
-  padding: 8px;
+  padding: 0.5rem;
 
   max-width: 100%;
 }
@@ -293,13 +293,13 @@ h2 span {
 
   transform: translateX(-50%);
 
-  width: 90px;
+  width: 5.625rem;
 
   max-width: 40%;
 
-  height: 24px;
+  height: 1.5rem;
 
-  border-radius: 0 0 15px 15px;
+  border-radius: 0 0 0.9375rem 0.9375rem;
 
   background: #14201b;
 
@@ -309,23 +309,23 @@ h2 span {
 .phone-screen {
   height: 100%;
 
-  border-radius: 30px;
+  border-radius: 1.875rem;
 
   background: linear-gradient(#f3faf4, #fff);
 
-  padding: 45px 16px 20px;
+  padding: 2.8125rem 1rem 1.25rem;
 
   overflow: hidden;
 }
 
 .mini-logo {
-  width: 34px;
-  height: 34px;
+  width: 2.125rem;
+  height: 2.125rem;
 
   display: grid;
   place-items: center;
 
-  border-radius: 10px;
+  border-radius: 0.625rem;
 
   background: var(--green);
 
@@ -335,24 +335,24 @@ h2 span {
 }
 
 .phone-screen h4 {
-  font-size: clamp(17px, 1.5vw, 20px);
+  font-size: clamp(1.0625rem, 1.5vw, 1.25rem);
 
   font-weight: 500;
 
-  margin: 18px 0 12px;
+  margin: 1.125rem 0 0.75rem;
 }
 
 .search-pill,
 .preview-search {
   background: #edf3ee;
 
-  border-radius: 12px;
+  border-radius: 0.75rem;
 
-  padding: 11px;
+  padding: 0.6875rem;
 
   color: #87928b;
 
-  font-size: 12px;
+  font-size: 0.75rem;
 
   max-width: 100%;
 
@@ -365,9 +365,9 @@ h2 span {
 
   align-items: center;
 
-  gap: 9px;
+  gap: 0.5625rem;
 
-  padding: 14px 0;
+  padding: 0.875rem 0;
 
   border-bottom: 1px solid #e3eae5;
 
@@ -375,8 +375,8 @@ h2 span {
 }
 
 .avatar {
-  width: 38px;
-  height: 38px;
+  width: 2.375rem;
+  height: 2.375rem;
 
   display: grid;
   place-items: center;
@@ -385,7 +385,7 @@ h2 span {
 
   border-radius: 50%;
 
-  font-size: 20px;
+  font-size: 1.25rem;
 
   flex-shrink: 0;
 }
@@ -394,7 +394,7 @@ h2 span {
 .preview-guard b {
   display: block;
 
-  font-size: 12px;
+  font-size: 0.75rem;
 
   font-weight: 500;
 
@@ -407,7 +407,7 @@ h2 span {
 
   color: #78857d;
 
-  font-size: 9px;
+  font-size: 0.5625rem;
 }
 
 .phone-screen button,
@@ -420,11 +420,11 @@ h2 span {
 
   color: white;
 
-  border-radius: 9px;
+  border-radius: 0.5625rem;
 
-  padding: 12px;
+  padding: 0.75rem;
 
-  margin-top: 15px;
+  margin-top: 0.9375rem;
 
   font-family: inherit;
 }
@@ -432,19 +432,19 @@ h2 span {
 .hero-stat {
   position: absolute;
 
-  right: clamp(10px, 2vw, 0px);
+  right: clamp(0.625rem, 2vw, 0px);
 
-  bottom: clamp(30px, 7vw, 100px);
+  bottom: clamp(1.875rem, 7vw, 6.25rem);
 
-  max-width: calc(100% - 20px);
+  max-width: calc(100% - 1.25rem);
 
   background: #075d32;
 
   color: white;
 
-  padding: 20px 28px;
+  padding: 1.25rem 1.75rem;
 
-  border-radius: 16px;
+  border-radius: 1rem;
 
   z-index: 4;
 
@@ -456,29 +456,29 @@ h2 span {
 }
 
 .hero-stat b {
-  font-size: clamp(24px, 2.5vw, 30px);
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
 
   font-weight: 500;
 }
 
 .hero-stat span {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .hero-stat small {
   color: #bde86b;
 
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 
 .section {
-  padding: clamp(55px, 7vw, 80px) 0;
+  padding: clamp(3.4375rem, 7vw, 5rem) 0;
 
   background: #ffffff;
 }
 
 .section.tight {
-  padding: 0 0 20px;
+  padding: 0 0 1.25rem;
 
   background: #ffffff;
 }
@@ -492,9 +492,9 @@ h2 span {
 
   border: 1px solid rgba(220, 231, 223, 0.75);
 
-  border-radius: 18px;
+  border-radius: 1.125rem;
 
-  box-shadow: 0 12px 35px rgba(6, 61, 40, 0.06);
+  box-shadow: 0 0.75rem 2.1875rem rgba(6, 61, 40, 0.06);
 
   overflow: hidden;
 
@@ -502,11 +502,11 @@ h2 span {
 }
 
 .feature-mini {
-  padding: clamp(16px, 2vw, 20px);
+  padding: clamp(1rem, 2vw, 1.25rem);
 
   display: flex;
 
-  gap: 12px;
+  gap: 0.75rem;
 
   align-items: flex-start;
 
@@ -520,7 +520,7 @@ h2 span {
 }
 
 .feature-mini svg {
-  width: 28px;
+  width: 1.75rem;
 
   color: var(--green);
 
@@ -530,7 +530,7 @@ h2 span {
 .feature-mini b {
   display: block;
 
-  font-size: 13px;
+  font-size: 0.8125rem;
 
   font-weight: 500;
 
@@ -542,11 +542,11 @@ h2 span {
 
   color: var(--muted);
 
-  font-size: 10px;
+  font-size: 0.625rem;
 
   line-height: 1.5;
 
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }
 
 .app-section {
@@ -554,7 +554,7 @@ h2 span {
 
   width: 100%;
 
-  padding: 30px 0 50px;
+  padding: 1.875rem 0 3.125rem;
 
   background: #ffffff;
 
@@ -564,9 +564,9 @@ h2 span {
 .app-section-header {
   width: 100%;
 
-  max-width: 760px;
+  max-width: 47.5rem;
 
-  margin: 0 auto 45px;
+  margin: 0 auto 2.8125rem;
 
   text-align: center;
 }
@@ -574,15 +574,15 @@ h2 span {
 .app-section-header .eyebrow {
   display: block;
 
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .app-section-header h2 {
-  margin: 0 0 18px;
+  margin: 0 0 1.125rem;
 
   font-family: "Mitr", sans-serif;
 
-  font-size: clamp(30px, 3.5vw, 46px);
+  font-size: clamp(1.875rem, 3.5vw, 2.875rem);
 
   font-weight: 500;
 
@@ -596,7 +596,7 @@ h2 span {
 }
 
 .app-section-header p {
-  max-width: 680px;
+  max-width: 42.5rem;
 
   margin: 0 auto;
 
@@ -612,11 +612,11 @@ h2 span {
 
   grid-template-columns: repeat(2, minmax(0, 1fr));
 
-  gap: 24px;
+  gap: 1.5rem;
 
   width: 100%;
 
-  max-width: 1000px;
+  max-width: 62.5rem;
 
   margin: 0 auto;
 
@@ -634,17 +634,17 @@ h2 span {
 
   min-width: 0;
 
-  min-height: 350px;
+  min-height: 21.875rem;
 
-  padding: clamp(26px, 3vw, 34px);
+  padding: clamp(1.625rem, 3vw, 2.125rem);
 
-  border-radius: 22px;
+  border-radius: 1.375rem;
 
   background: #ffffff;
 
   border: 1px solid rgba(8, 120, 63, 0.1);
 
-  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0.9375rem 2.8125rem rgba(0, 0, 0, 0.07);
 
   overflow: hidden;
 
@@ -662,7 +662,7 @@ h2 span {
   left: 0;
 
   width: 100%;
-  height: 4px;
+  height: 0.25rem;
 
   background: var(--green);
 
@@ -674,9 +674,9 @@ h2 span {
 }
 
 .app-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-0.375rem);
 
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 1.5625rem 3.75rem rgba(0, 0, 0, 0.11);
 }
 
 .app-card:hover::before {
@@ -688,16 +688,16 @@ h2 span {
 
   align-items: center;
 
-  gap: 14px;
+  gap: 0.875rem;
 
-  margin-bottom: 22px;
+  margin-bottom: 1.375rem;
 
   min-width: 0;
 }
 
 .app-card-icon {
-  width: 58px;
-  height: 58px;
+  width: 3.625rem;
+  height: 3.625rem;
 
   display: flex;
 
@@ -706,7 +706,7 @@ h2 span {
 
   flex-shrink: 0;
 
-  border-radius: 16px;
+  border-radius: 1rem;
 
   background: rgba(8, 120, 63, 0.08);
 
@@ -714,26 +714,26 @@ h2 span {
 }
 
 .app-card-icon svg {
-  width: 27px;
-  height: 27px;
+  width: 1.6875rem;
+  height: 1.6875rem;
 }
 
 .app-card-label {
-  font-size: 15px;
+  font-size: 0.9375rem;
 
   font-weight: 600;
 
-  letter-spacing: 1.3px;
+  letter-spacing: 0.08125rem;
 
   color: var(--green);
 }
 
 .app-card h3 {
-  margin: 0 0 14px;
+  margin: 0 0 0.875rem;
 
   font-family: "Mitr", sans-serif;
 
-  font-size: clamp(20px, 2vw, 20px);
+  font-size: clamp(1.25rem, 2vw, 1.25rem);
 
   font-weight: 430;
 
@@ -745,9 +745,9 @@ h2 span {
 }
 
 .app-card p {
-  max-width: 520px;
+  max-width: 32.5rem;
 
-  margin: 0 0 20px;
+  margin: 0 0 1.25rem;
 
   color: #5d6b65;
 
@@ -763,9 +763,9 @@ h2 span {
 
   flex-direction: column;
 
-  gap: 10px;
+  gap: 0.625rem;
 
-  margin: 0 0 24px;
+  margin: 0 0 1.5rem;
 
   padding: 0;
 
@@ -777,13 +777,13 @@ h2 span {
 
   align-items: center;
 
-  gap: 9px;
+  gap: 0.5625rem;
 
   margin: 0;
 
   color: #26352e;
 
-  font-size: 13px;
+  font-size: 0.8125rem;
 
   font-weight: 300;
 
@@ -793,8 +793,8 @@ h2 span {
 }
 
 .app-card .checks svg {
-  width: 18px;
-  height: 18px;
+  width: 1.125rem;
+  height: 1.125rem;
 
   flex-shrink: 0;
 
@@ -807,7 +807,7 @@ h2 span {
   align-items: center;
   justify-content: center;
 
-  gap: 9px;
+  gap: 0.5625rem;
 
   width: fit-content;
 

@@ -60,11 +60,16 @@ function Navbar() {
             className="menu-btn"
             onClick={() => setOpen(!open)}
             aria-label="menu"
+            aria-expanded={open}
+            aria-controls="main-navigation"
           >
             {open ? <X /> : <Menu />}
           </button>
 
-          <nav className={open ? "nav-links open" : "nav-links"}>
+          <nav
+            id="main-navigation"
+            className={open ? "nav-links open" : "nav-links"}
+          >
             {links.map(([label, path]) => (
               <Link
                 key={path}

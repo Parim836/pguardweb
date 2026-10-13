@@ -23,8 +23,8 @@ export const features = [
     title: "Professional Guard",
     titleTh: "รปภ. มืออาชีพ",
     textEn:
-      "Licensed, trained security guards with background checks completed before joining the platform.",
-    text: "มีใบอนุญาต ผ่านการอบรม และตรวจสอบประวัติก่อนใช้งาน",
+      "Verify licenses and training certificates, and conduct background checks before guards accept jobs.",
+    text: "ตรวจสอบใบอนุญาต ตรวจสอบใบฝึกอบรม และ ตรวจสอบประวัติก่อนเข้ารับงาน",
   },
   {
     icon: Clock3,

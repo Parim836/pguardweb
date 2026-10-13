@@ -1,0 +1,347 @@
+﻿/* Keep the shared workflow card dimensions and rounded number tab. */
+.business-page-content .business-step.business-step--background {
+  isolation: isolate;
+  --rail-width: 6.375rem;
+  /* Step 4 includes a number tab extending 3.875rem beyond its 72% card. */
+  width: calc(72% + 3.875rem);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.1875rem;
+  min-height: 9.375rem;
+  box-shadow: none;
+  padding: 1.125rem 1.375rem 1.125rem calc(var(--rail-width) + 1.25rem);
+  transition:
+    width 0.4s ease,
+    opacity 0.45s ease,
+    transform 0.55s ease;
+}
+
+@media (min-width: 601px) {
+  .business-page-content .business-step.business-step--background:is(:hover, :focus-within) {
+    width: 100%;
+    height: calc(var(--step-rest-height, 9.375rem) + 3.75rem);
+    min-height: calc(max(9.375rem, var(--step-rest-height, 9.375rem)) + 3.75rem);
+    transition-delay: 0s;
+  }
+}
+
+.business-page-content .business-step.business-step--background:nth-child(n)::before {
+  z-index: 2;
+  content: counter(checklist-step, decimal-leading-zero);
+  inset: 0 auto 0 0;
+  width: var(--rail-width);
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-top: 2.75rem;
+  font-size: 1.875rem;
+}
+
+.business-page-content .business-step.business-step--background > .business-step-icon {
+  z-index: 3;
+  position: absolute;
+  top: calc(50% - 2.625rem);
+  left: 0;
+  width: var(--rail-width);
+  height: 2.75rem;
+  border-radius: 0;
+  background: transparent;
+  color: white;
+}
+
+.business-page-content .business-step.business-step--background::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #ffffff 0%, rgb(255 255 255 / 94%) 55%, rgb(255 255 255 / 25%) 100%);
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.business-page-content .business-step.business-step--background > .business-step-preview {
+  position: absolute;
+  inset: 0;
+  left: auto;
+  width: var(--step-image-width, 45%);
+  height: 100%;
+  object-fit: cover;
+  object-position: right 42%;
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 40%);
+  mask-image: linear-gradient(to right, transparent 0%, #000 40%);
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.4s ease;
+}
+
+.business-page-content .business-step.business-step--background:nth-child(3) > .business-step-preview {
+  object-fit: cover;
+  object-position: center;
+  transform: none;
+}
+
+.business-page-content .business-step.business-step--background:nth-child(5) > .business-step-preview {
+  object-view-box: inset(8%);
+}
+
+.business-page-content .business-step.business-step--background:nth-child(4) > .business-step-preview {
+  transform: translateX(0.625rem) scale(0.9);
+  transform-origin: right center;
+}
+
+.guard-page-content .business-step.business-step--background:nth-child(2) > .business-step-preview {
+  transform: translateX(0.625rem);
+}
+
+.guard-page-content .business-step.business-step--background:nth-child(4) > .business-step-preview {
+  transform: none;
+  object-position: center;
+}
+
+.business-page-content .business-step--background > h3,
+.business-page-content .business-step--background > p {
+  transition: color 0.4s ease;
+}
+
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within) > .business-step-preview,
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within)::after {
+  opacity: 1;
+}
+
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within) > h3,
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within) > p {
+  color: #382708;
+}
+
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within) > h3 {
+  font-size: 1.5625rem;
+}
+
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within) > p {
+  font-size: 1.25rem;
+}
+
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within) > .business-step-label {
+  font-size: 0.9375rem;
+}
+
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within) > .business-step-icon {
+  background: transparent;
+  color: white;
+}
+
+.business-step--background:focus-visible {
+  outline: 0.1875rem solid #e29523;
+  outline-offset: 0.25rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .business-page-content .business-step--background *,
+  .business-page-content .business-step--background::after {
+    transition: none;
+  }
+}
+
+.business-page-content .business-step.business-step--background > .business-step-icon::after {
+  display: none;
+}
+
+.business-page-content .business-step.business-step--background > .business-step-label {
+  font-size: 0.6875rem;
+  color: #71521d;
+}
+
+
+.business-page-content .business-step.business-step--background > h3,
+.business-page-content .business-step.business-step--background > p {
+  width: 100%;
+  margin: 0;
+  text-align: left;
+}
+
+.business-page-content .business-step.business-step--background > h3::after {
+  content: "";
+  display: block;
+  width: 65%;
+  height: 0.1875rem;
+  margin: 0.3125rem 0 0.1875rem;
+  border-radius: 0.1875rem;
+  background: linear-gradient(90deg, #08783f, transparent);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.business-page-content .business-step.business-step--background:is(:hover, :focus-within) > h3::after {
+  opacity: 1;
+}
+
+.business-page-content .business-step.business-step--background:not(:hover):not(:focus-within) {
+  gap: 0.125rem;
+}
+
+.business-page-content .business-step.business-step--background:not(:hover):not(:focus-within) > :is(h3, p) {
+  line-height: 1.4;
+}
+
+.business-page-content .business-step.business-step--background:not(:hover):not(:focus-within) > h3::after {
+  height: 0;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .business-page-content .business-step.business-step--background {
+    --rail-width: 4.75rem;
+    width: calc(78% + 2.75rem);
+    padding: 1rem 0.75rem 1rem calc(var(--rail-width) + 0.75rem);
+  }
+
+  .business-page-content .business-step.business-step--background > h3,
+  .business-page-content .business-step.business-step--background > p {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .business-page-content .business-step.business-step--background > h3::after {
+    transition: none;
+  }
+}
+
+.business-page-content .business-step.business-step--background > .business-step-shadow {
+  position: absolute;
+  inset: 0 0 0 3.875rem;
+  z-index: -2;
+  border-radius: inherit;
+  box-shadow:
+    0.75rem 0.875rem 0 rgba(219, 228, 222, 0.42),
+    0 0.75rem 1.625rem rgba(35, 70, 48, 0.08);
+  pointer-events: none;
+}
+
+@media (max-width: 600px) {
+  .business-page-content .business-step.business-step--background > .business-step-shadow {
+    left: 2.75rem;
+  }
+}
+
+/* Odd steps mirror the layout: image left, number rail right. */
+.business-page-content .business-step.business-step--background:first-child > .business-step-preview {
+  --step-image-width: 55%;
+  object-view-box: inset(6%);
+  object-position: center calc(42% + 0.625rem);
+}
+
+.guard-page-content .business-step.business-step--background:first-child > .business-step-preview {
+  object-position: center 42%;
+}
+
+.business-page-content:not(.guard-page-content) .business-step.business-step--background:first-child > .business-step-preview {
+  width: calc(100% + 1.875rem);
+  height: 100%;
+  object-fit: cover;
+  object-view-box: none;
+  object-position: center;
+  transform: translateX(-1.875rem);
+}
+
+/* Allow text into the faded 40% of the image, keeping its clear area free. */
+@media (min-width: 601px) {
+  .business-page-content .business-step.business-step--background:has(> .business-step-preview):is(:hover, :focus-within) {
+    padding-right: calc(27% + 0.75rem);
+  }
+
+  .business-page-content .business-step.business-step--background:nth-child(odd):has(> .business-step-preview):is(:hover, :focus-within) {
+    padding-left: calc(27% + 0.75rem);
+    padding-right: calc(var(--rail-width) + 1.25rem);
+  }
+
+  .business-page-content .business-step.business-step--background:first-child:has(> .business-step-preview):is(:hover, :focus-within) {
+    padding-left: calc(33% + 0.75rem);
+  }
+}
+
+.business-page-content .business-step.business-step--background > :is(h3, p) {
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .business-page-content .business-step.business-step--background:is(:hover, :focus-within) > .business-step-preview {
+    position: relative;
+    inset: auto;
+    order: 1;
+    width: 100%;
+    height: 8.75rem;
+    margin-top: 0.75rem;
+    object-fit: contain;
+    transform: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+}
+
+.business-page-content .business-step.business-step--background:nth-child(odd) > .business-step-label,
+.business-page-content .business-step.business-step--background:nth-child(odd) > h3,
+.business-page-content .business-step.business-step--background:nth-child(odd) > p {
+  width: 100%;
+  text-align: right;
+}
+
+.business-page-content .business-step.business-step--background:nth-child(odd) > h3::after {
+  margin-left: auto;
+  background: linear-gradient(270deg, #e29523, transparent);
+}
+
+.business-page-content .business-step.business-step--background:nth-child(odd) {
+  padding: 1.125rem calc(var(--rail-width) + 1.25rem) 1.125rem 1.375rem;
+}
+
+.business-page-content .business-step.business-step--background:nth-child(odd)::before {
+  inset: 0 0 0 auto;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.business-page-content .business-step.business-step--background:nth-child(odd) > .business-step-icon {
+  left: auto;
+  right: 0;
+}
+
+.business-page-content .business-step.business-step--background:nth-child(odd) > .business-step-preview {
+  left: 0;
+  right: auto;
+  border-top-left-radius: inherit;
+  border-bottom-left-radius: inherit;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  -webkit-mask-image: linear-gradient(to left, transparent 0%, #000 40%);
+  mask-image: linear-gradient(to left, transparent 0%, #000 40%);
+}
+
+.business-page-content .business-step.business-step--background:nth-child(odd)::after {
+  background: linear-gradient(270deg, #ffffff 0%, rgb(255 255 255 / 94%) 55%, rgb(255 255 255 / 25%) 100%);
+}
+
+.business-page-content .business-step.business-step--background:nth-child(odd) > .business-step-shadow {
+  left: 0;
+  right: 3.875rem;
+}
+
+@media (max-width: 600px) {
+  .business-page-content .business-step.business-step--background:nth-child(odd) {
+    padding: 1rem calc(var(--rail-width) + 0.75rem) 1rem 0.75rem;
+  }
+  .business-page-content .business-step.business-step--background:nth-child(odd) > .business-step-shadow {
+    right: 2.75rem;
+  }
+}

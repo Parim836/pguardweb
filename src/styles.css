@@ -5,3 +5,280 @@
 @import "./styles/pages.css";
 @import "./styles/typography.css";
 @import "./styles/phone-typography.css";
+
+/* Align every page, navigation and footer to the same responsive content frame. */
+:root {
+  --site-gutter: 2.5rem;
+}
+
+.container,
+.nav-inner,
+.footer-grid,
+.home-page .hero-grid {
+  width: min(73.75rem, calc(100% - var(--site-gutter)));
+  max-width: 73.75rem;
+}
+
+.footer-grid {
+  padding-inline: 0;
+}
+
+@media (min-width: 901px) {
+  .nav-inner {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .nav-links {
+    left: auto;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 900px) {
+  :root {
+    --site-gutter: 2rem;
+  }
+
+  .nav-logo-space {
+    width: 9.375rem;
+    flex-basis: 9.375rem;
+  }
+
+  .smart-search-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .smart-search-content {
+    width: 100%;
+    margin-inline: auto;
+  }
+
+  .smart-search-grid > .smart-search-phone {
+    width: 100%;
+    min-width: 0;
+    height: 38rem;
+    margin-inline: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --site-gutter: 1.875rem;
+  }
+}
+
+@media (max-width: 380px) {
+  :root {
+    --site-gutter: 1.5rem;
+  }
+}
+
+/* Mobile content stays in flow; illustration internals retain their proportions. */
+@media (max-width: 900px) {
+  .navbar {
+    height: auto;
+  }
+
+  .nav-inner {
+    --mobile-nav-height: 4.625rem;
+    height: auto;
+    min-height: var(--mobile-nav-height);
+    flex-wrap: wrap;
+    row-gap: 0;
+  }
+
+  .nav-logo-space {
+    height: var(--mobile-nav-height);
+  }
+
+  .menu-btn {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+  }
+
+  .nav-links.open {
+    position: static;
+    flex-basis: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+    max-height: calc(100dvh - 4.625rem - 1rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .nav-links .language-menu {
+    position: static;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .btn,
+  .document-button,
+  .business-cta {
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    text-align: center;
+  }
+
+  .btn svg,
+  .document-button svg,
+  .business-cta svg,
+  .smart-search-feature-icon {
+    flex-shrink: 0;
+  }
+
+  .smart-search-feature > div:last-child,
+  .footer-brand > span,
+  .document-verified-text {
+    min-width: 0;
+  }
+
+  .footer-column a,
+  .contact-item span {
+    overflow-wrap: anywhere;
+  }
+
+  .document-visual-header {
+    flex-wrap: wrap;
+  }
+
+  .documents-steps,
+  .document-preview {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .document-step:not(:last-child)::after,
+  .document-step.active::before {
+    display: none;
+  }
+
+  .document-preview-visual {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .document-verified {
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .contact-grid input,
+  .contact-grid textarea {
+    min-width: 0;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .hourly-report,
+  .rating-section {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .hourly-report-content {
+    grid-row: 1;
+  }
+
+  .hourly-report-visual {
+    top: 0;
+    padding-block: 1rem;
+  }
+
+  .hourly-report-visual,
+  .rating-visual {
+    width: min(100%, 24rem);
+    margin-inline: auto;
+  }
+
+  .smart-search-phone.report-phone-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    height: auto;
+  }
+
+  .report-phone-preview .report-phone-device {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 30rem;
+  }
+
+  .report-phone-preview .report-phone-device .phone3d-wrapper,
+  .smart-search-phone.rating-phone-preview .phone3d-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) scale(0.72);
+    transform-origin: center top;
+  }
+
+  .report-phone-preview .report-floating-summary {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    max-width: 24rem;
+  }
+
+  .smart-search-phone.rating-phone-preview {
+    height: 31rem;
+  }
+
+  .report-summary-steps li {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav-inner {
+    --mobile-nav-height: 4rem;
+  }
+
+  .app-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .app-card {
+    min-height: 0;
+  }
+
+  .app-card-top {
+    flex-wrap: wrap;
+  }
+
+  .nav-links.open {
+    max-height: calc(100dvh - 4rem - 1rem);
+  }
+
+  .business-page-content .business-step.business-step--background {
+    width: 100%;
+    border-radius: 1.25rem;
+    --rail-width: 3.5rem;
+  }
+
+  .business-page-content
+    .business-step.business-step--background:nth-child(n)
+    > :is(h3, p) {
+    text-align: left;
+  }
+
+  .business-page-content
+    .business-step.business-step--background:nth-child(n):is(
+      :hover,
+      :focus-within
+    )
+    > .business-step-preview {
+    position: relative;
+    inset: auto;
+    width: 100%;
+    height: 9rem;
+    margin-top: 0.75rem;
+    object-fit: contain;
+    transform: none;
+    mask-image: none;
+    -webkit-mask-image: none;
+  }
+}

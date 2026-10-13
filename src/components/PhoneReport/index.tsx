@@ -7,45 +7,47 @@ export default function ReportPhone() {
   const { t } = useLanguage();
   return (
     <div className="smart-search-phone report-phone-preview">
-      <PhoneFrame>
-        <div className="report-app-screen">
-          <div className="report-underlay" aria-hidden="true">
-            <header>
-              <ChevronLeft size={18} />
-              <strong>{t("งานดำเนินอยู่")}</strong>
-              <span>● LIVE</span>
-            </header>
-            <p>{t("ถึงจุดนัดหมาย")} · Arrived</p>
-            <h3>{t("สถานะการทำงาน")}</h3>
-            <div className="report-underlay-step">1</div>
-            <div className="report-underlay-bottom">3　{t("ตรวจรอบ 2")}</div>
-          </div>
-          <div className="report-photo-overlay">
-            <div className="report-photo-close" aria-hidden="true">
-              <X size={22} />
+      <div className="report-phone-device">
+        <PhoneFrame>
+          <div className="report-app-screen">
+            <div className="report-underlay" aria-hidden="true">
+              <header>
+                <ChevronLeft size={18} />
+                <strong>{t("งานดำเนินอยู่")}</strong>
+                <span>● LIVE</span>
+              </header>
+              <p>{t("ถึงจุดนัดหมาย")} · Arrived</p>
+              <h3>{t("สถานะการทำงาน")}</h3>
+              <div className="report-underlay-step">1</div>
+              <div className="report-underlay-bottom">3　{t("ตรวจรอบ 2")}</div>
             </div>
-            <figure className="report-photo-card">
-              <div className="report-photo-crop">
-                <img
-                  src="/report-office-entrance.png"
-                  alt={t("ภาพถ่ายประกอบการเช็กอิน")}
-                />
+            <div className="report-photo-overlay">
+              <div className="report-photo-close" aria-hidden="true">
+                <X size={22} />
               </div>
-              <figcaption>
-                <strong>{t("เริ่มงาน · เช็กอินจุดนัด")}</strong>
-                <span>
-                  <Clock3 size={13} aria-hidden="true" />
-                  6/09 22:25
-                </span>
-                <span>
-                  <MapPin size={13} aria-hidden="true" />
-                  13.52869, 100.66466 · {t("แม่นยำ 6 ม.")}
-                </span>
-              </figcaption>
-            </figure>
+              <figure className="report-photo-card">
+                <div className="report-photo-crop">
+                  <img
+                    src="/report-office-entrance.png"
+                    alt={t("ภาพถ่ายประกอบการเช็กอิน")}
+                  />
+                </div>
+                <figcaption>
+                  <strong>{t("เริ่มงาน · เช็กอินจุดนัด")}</strong>
+                  <span>
+                    <Clock3 size={13} aria-hidden="true" />
+                    6/09 22:25
+                  </span>
+                  <span>
+                    <MapPin size={13} aria-hidden="true" />
+                    13.52869, 100.66466 · {t("แม่นยำ 6 ม.")}
+                  </span>
+                </figcaption>
+              </figure>
+            </div>
           </div>
-        </div>
-      </PhoneFrame>
+        </PhoneFrame>
+      </div>
       <div className="report-floating-summary">
         <div className="report-summary-timer">
           <div className="report-timer-ring">

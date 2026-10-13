@@ -64,7 +64,7 @@ function Documents() {
         t("ต้องเป็นเอกสารที่ออกโดยหน่วยงานที่เกี่ยวข้องและสามารถตรวจสอบได้"),
       ],
       tip: t("กรุณาอัปโหลดไฟล์ภาพที่ชัดเจน ในรูปแบบ JPG, PNG หรือ PDF"),
-      image: "/documents/guard-license.jpg",
+      image: "/Permit.jpg",
     },
     {
       id: 3,
@@ -242,7 +242,9 @@ function Documents() {
             </div>
 
             <div className="document-image-wrapper">
-              <div className="document-image-card">
+              <div
+                className={`document-image-card${activeDocument.id === 2 ? " document-image-card--permit" : ""}`}
+              >
                 {activeDocument.id === 5 ? (
                   <svg
                     viewBox="163 121 1252 749"

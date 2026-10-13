@@ -28,6 +28,8 @@ function Business() {
     {
       icon: ClipboardCheck,
       title: t("เลือกบริการ"),
+      image: "/Service.png",
+      backgroundReveal: true,
       description: t(
         "เลือกประเภทบริการรักษาความปลอดภัยที่เหมาะกับความต้องการของหน่วยงาน",
       ),
@@ -35,12 +37,16 @@ function Business() {
     {
       icon: MapPin,
       title: t("เลือกสถานที่ เวลา และอุปกรณ์"),
+      image: "/Time.png",
+      backgroundReveal: true,
       description: t(
         "ระบุสถานที่ วันเวลา และอุปกรณ์ที่จำเป็นสำหรับการปฏิบัติงาน",
       ),
     },
     {
       icon: Search,
+      image: "/search.png",
+      backgroundReveal: true,
       title: t("ค้นหาเจ้าหน้าที่ใกล้สถานที่ทำงาน"),
       description: t(
         "ค้นหาเจ้าหน้าที่รักษาความปลอดภัยที่อยู่ใกล้กับสถานที่ทำงาน",
@@ -48,6 +54,8 @@ function Business() {
     },
     {
       icon: UserCheck,
+      image: "/review.png",
+      backgroundReveal: true,
       title: t("เลือกเจ้าหน้าที่"),
       description: t(
         "ตรวจสอบประวัติ ใบอนุญาต Rating และข้อมูลที่เกี่ยวข้องก่อนตัดสินใจเลือก",
@@ -55,11 +63,17 @@ function Business() {
     },
     {
       icon: CreditCard,
+      image: "/Payment.png",
+      backgroundReveal: true,
       title: t("จ่ายเงิน"),
-      description: t("ชำระเงินผ่านระบบ Payment Gateway"),
+      description: t(
+        "ชำระเงินผ่านระบบ Payment Gateway หากเจ้าหน้าที่ทิ้งงาน เงินจะถูกโอนคืนให้ผู้ว่าจ้าง",
+      ),
     },
     {
       icon: CheckCircle2,
+      image: "/end.png",
+      backgroundReveal: true,
       title: t("จบงาน"),
       description: t("ติดตามงานจนเสร็จสิ้นและปิดงานผ่านระบบ PGUARD"),
     },

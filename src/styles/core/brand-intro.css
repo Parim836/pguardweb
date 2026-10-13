@@ -29,10 +29,10 @@
 
   align-items: center;
 
-  gap: 7px;
+  gap: 0.4375rem;
 
-  width: 150px;
-  height: 54px;
+  width: 9.375rem;
+  height: 3.375rem;
 
   transform: translate3d(-50%, -50%, 0);
 
@@ -46,20 +46,20 @@
 }
 
 .intro-logo {
-  width: 42px;
-  height: 42px;
+  width: 2.625rem;
+  height: 2.625rem;
 
   display: flex;
 
   align-items: center;
   justify-content: center;
 
-  flex: 0 0 42px;
+  flex: 0 0 2.625rem;
 }
 
 .intro-logo img {
-  width: 42px;
-  height: 42px;
+  width: 2.625rem;
+  height: 2.625rem;
 
   object-fit: contain;
 
@@ -67,8 +67,8 @@
 }
 
 .intro-brand-text {
-  width: 101px;
-  height: 42px;
+  width: 6.3125rem;
+  height: 2.625rem;
 
   display: flex;
 
@@ -84,7 +84,7 @@
 
   align-items: center;
 
-  height: 27px;
+  height: 1.6875rem;
 
   white-space: nowrap;
 
@@ -96,7 +96,7 @@
 
   font-family: "Mitr", sans-serif;
 
-  font-size: 28px;
+  font-size: 1.75rem;
 
   font-weight: 600;
 
@@ -112,11 +112,11 @@
 .intro-tagline {
   display: block;
 
-  margin-top: 3px;
+  margin-top: 0.1875rem;
 
   font-family: "Mitr", sans-serif;
 
-  font-size: 12px;
+  font-size: 0.75rem;
 
   font-weight: 300;
 

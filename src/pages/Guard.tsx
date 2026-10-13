@@ -29,6 +29,8 @@ function Guard() {
   const steps = [
     {
       icon: ClipboardCheck,
+      image: "/name.png",
+      backgroundReveal: true,
       title: t("สมัครสมาชิก"),
       description: t(
         "สร้างบัญชีเจ้าหน้าที่ รปภ. พร้อมกรอกข้อมูลส่วนตัวและข้อมูลที่จำเป็น",
@@ -36,6 +38,8 @@ function Guard() {
     },
     {
       icon: FileCheck2,
+      image: "/wait.png",
+      backgroundReveal: true,
       title: t("ยืนยันเอกสาร"),
       description: t(
         "อัปโหลดเอกสารที่จำเป็น เพื่อให้ PGUARD ตรวจสอบและยืนยันตัวตน",
@@ -43,6 +47,8 @@ function Guard() {
     },
     {
       icon: Search,
+      image: "/work.png",
+      backgroundReveal: true,
       title: t("รอรับงาน"),
       description: t(
         "เลือกงานที่เหมาะกับพื้นที่ เวลา และความพร้อมของคุณ แล้วกดรับงานผ่านแอป",
@@ -50,6 +56,8 @@ function Guard() {
     },
     {
       icon: Wallet,
+      image: "/checkin.png",
+      backgroundReveal: true,
       title: t("ปฏิบัติงาน"),
       description: t(
         "เช็กอินและรายงานการปฏิบัติงานผ่านระบบ เมื่อจบงานรับเงินตามเงื่อนไขที่กำหนด",
@@ -62,7 +70,7 @@ function Guard() {
       title={t("สำหรับเจ้าหน้าที่ รปภ.")}
       subtitle={t("รับงานง่าย รายได้ดี มีโอกาสเติบโต")}
     >
-      <div className="business-page-content">
+      <div className="business-page-content guard-page-content">
         <div className="business-layout">
           <div className="business-visual">
             <div className="business-phone-view smart-search-phone">

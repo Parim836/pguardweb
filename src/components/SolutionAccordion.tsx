@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { features, additionalFeatures } from "../data/features";
+import { features } from "../data/features";
 import { useLanguage } from "../LanguageContext";
 import "./styles/SolutionAccordion.css";
 
-const solutions = [...features, ...additionalFeatures];
+const solutions = features;
 
 function SolutionRow() {
   const [active, setActive] = useState<number | null>(null);

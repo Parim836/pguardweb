@@ -2,15 +2,15 @@
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   align-items: center;
-  gap: clamp(36px, 5vw, 80px);
-  max-width: 900px;
-  margin: 24px auto 0;
-  padding: 32px 0 16px;
+  gap: clamp(2.25rem, 5vw, 5rem);
+  max-width: 56.25rem;
+  margin: 1.5rem auto 0;
+  padding: 2rem 0 1rem;
 }
 .financial-content h2 {
-  margin: 0 0 18px;
+  margin: 0 0 1.125rem;
   color: #10251b;
-  font-size: clamp(30px, 3.5vw, 42px);
+  font-size: clamp(1.875rem, 3.5vw, 2.625rem);
   font-weight: 600;
   line-height: 1.35;
 }
@@ -18,15 +18,15 @@
   color: #08783f;
 }
 .financial-lead {
-  margin: 0 0 28px;
+  margin: 0 0 1.75rem;
   color: #718078;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.9;
 }
 .financial-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px 24px;
+  gap: 1.75rem 1.5rem;
 }
 .financial-card {
   min-width: 0;
@@ -35,25 +35,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
-  margin-bottom: 16px;
-  border-radius: 12px;
+  width: 2.625rem;
+  height: 2.625rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
   background: #e0f0e6;
   color: #08783f;
 }
 .financial-card-label {
   display: block;
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
   color: #08783f;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.06875rem;
   line-height: 1.6;
 }
 .financial-card h3 {
-  margin: 0 0 9px;
-  font-size: 17px;
+  margin: 0 0 0.5625rem;
+  font-size: 1.0625rem;
   font-weight: 500;
   line-height: 1.5;
   color: #23342b;
@@ -61,7 +61,7 @@
 .financial-card p {
   margin: 0;
   color: #718078;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.85;
 }
 @media (max-width: 680px) {
@@ -70,8 +70,8 @@
   }
   .financial-section {
     grid-template-columns: 1fr;
-    margin-top: 16px;
-    padding-top: 24px;
-    gap: 24px;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
+    gap: 1.5rem;
   }
 }

@@ -57,10 +57,10 @@
 
   z-index: 2;
 
-  width: 330px;
-  height: 660px;
+  width: 20.625rem;
+  height: 41.25rem;
 
-  flex: 0 0 330px;
+  flex: 0 0 20.625rem;
 
   margin: 0;
 
@@ -80,8 +80,8 @@
 .smart-search-phone .phone3d {
   position: relative;
 
-  width: 330px;
-  height: 660px;
+  width: 20.625rem;
+  height: 41.25rem;
 
   transform-style: preserve-3d;
 
@@ -95,13 +95,13 @@
 
   inset: 0;
 
-  border-radius: 50px;
+  border-radius: 3.125rem;
 
   background: linear-gradient(145deg, #26302b 0%, #111713 45%, #050706 100%);
 
   border: 1px solid rgba(255, 255, 255, 0.45);
 
-  transform: translateZ(-20px);
+  transform: translateZ(-1.25rem);
 }
 
 .smart-search-phone .phone3d-body {
@@ -109,9 +109,9 @@
 
   inset: 0;
 
-  padding: 8px;
+  padding: 0.5rem;
 
-  border-radius: 50px;
+  border-radius: 3.125rem;
 
   background: #030403;
 
@@ -120,9 +120,9 @@
   transform-style: preserve-3d;
 
   box-shadow:
-    inset 1px 1px 2px rgba(255, 255, 255, 0.6),
-    inset -3px -4px 7px rgba(0, 0, 0, 0.75),
-    0 25px 55px rgba(0, 0, 0, 0.18);
+    inset 1px 1px 0.125rem rgba(255, 255, 255, 0.6),
+    inset -0.1875rem -0.25rem 0.4375rem rgba(0, 0, 0, 0.75),
+    0 1.5625rem 3.4375rem rgba(0, 0, 0, 0.18);
 }
 
 .smart-search-phone .phone-screen {
@@ -133,11 +133,11 @@
 
   overflow: visible;
 
-  border-radius: 43px;
+  border-radius: 2.6875rem;
 
   background: #ffffff;
 
-  transform: translateZ(10px);
+  transform: translateZ(0.625rem);
 
   z-index: 10;
 }
@@ -145,11 +145,11 @@
 .smart-search-phone .status-bar {
   position: absolute;
 
-  top: 10px;
-  left: 18px;
-  right: 18px;
+  top: 0.625rem;
+  left: 1.125rem;
+  right: 1.125rem;
 
-  height: 25px;
+  height: 1.5625rem;
 
   display: flex;
 
@@ -177,66 +177,66 @@
 
   align-items: center;
 
-  gap: 5px;
+  gap: 0.3125rem;
 
   height: 100%;
 }
 
 .smart-search-phone .signal-icon {
-  height: 13px;
+  height: 0.8125rem;
 
   display: flex;
 
   align-items: flex-end;
 
-  gap: 2px;
+  gap: 0.125rem;
 }
 
 .smart-search-phone .signal-icon span {
   display: block;
 
-  width: 3px;
+  width: 0.1875rem;
 
-  border-radius: 2px;
+  border-radius: 0.125rem;
 
   background: #111713;
 }
 
 .smart-search-phone .signal-icon span:nth-child(1) {
-  height: 4px;
+  height: 0.25rem;
 }
 
 .smart-search-phone .signal-icon span:nth-child(2) {
-  height: 7px;
+  height: 0.4375rem;
 }
 
 .smart-search-phone .signal-icon span:nth-child(3) {
-  height: 10px;
+  height: 0.625rem;
 }
 
 .smart-search-phone .signal-icon span:nth-child(4) {
-  height: 13px;
+  height: 0.8125rem;
 }
 
 .smart-search-phone .battery-icon {
   position: relative;
 
-  width: 20px;
-  height: 10px;
+  width: 1.25rem;
+  height: 0.625rem;
 
-  border: 1.5px solid #111713;
+  border: 0.09375rem solid #111713;
 
-  border-radius: 3px;
+  border-radius: 0.1875rem;
 }
 
 .smart-search-phone .battery-level {
   position: absolute;
 
-  left: 2px;
-  top: 2px;
+  left: 0.125rem;
+  top: 0.125rem;
 
-  width: 13px;
-  height: 4px;
+  width: 0.8125rem;
+  height: 0.25rem;
 
   border-radius: 1px;
 
@@ -246,13 +246,13 @@
 .smart-search-phone .battery-tip {
   position: absolute;
 
-  right: -3px;
-  top: 3px;
+  right: -0.1875rem;
+  top: 0.1875rem;
 
-  width: 2px;
-  height: 4px;
+  width: 0.125rem;
+  height: 0.25rem;
 
-  border-radius: 0 2px 2px 0;
+  border-radius: 0 0.125rem 0.125rem 0;
 
   background: #111713;
 }
@@ -260,16 +260,16 @@
 .smart-search-phone .dynamic-island {
   position: absolute;
 
-  top: 10px;
+  top: 0.625rem;
 
   left: 50%;
 
   transform: translateX(-50%);
 
-  width: 100px;
-  height: 27px;
+  width: 6.25rem;
+  height: 1.6875rem;
 
-  border-radius: 18px;
+  border-radius: 1.125rem;
 
   background: #020302;
 
@@ -279,17 +279,17 @@
 .smart-search-phone .dynamic-camera {
   position: absolute;
 
-  right: 14px;
-  top: 8px;
+  right: 0.875rem;
+  top: 0.5rem;
 
-  width: 9px;
-  height: 9px;
+  width: 0.5625rem;
+  height: 0.5625rem;
 
   border-radius: 50%;
 
   background: #17251d;
 
-  box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 0 0.1875rem rgba(255, 255, 255, 0.3);
 }
 
 .smart-search-phone .app-screen {
@@ -298,14 +298,14 @@
   display: grid;
   align-content: start;
   grid-template-columns: minmax(0, 1fr);
-  row-gap: 10px;
-  padding-top: 124px;
+  row-gap: 0.625rem;
+  padding-top: 7.75rem;
 
   inset: 0;
 
   overflow: visible;
 
-  border-radius: 43px;
+  border-radius: 2.6875rem;
 
   background: #ffffff;
 
@@ -319,10 +319,10 @@
 .smart-search-phone .app-header {
   position: absolute;
 
-  top: 35px;
+  top: 2.1875rem;
 
-  left: 18px;
-  right: 18px;
+  left: 1.125rem;
+  right: 1.125rem;
 
   z-index: 100;
 
@@ -332,19 +332,19 @@
 
   justify-content: flex-start;
 
-  gap: 3px;
+  gap: 0.1875rem;
 }
 
 .smart-search-phone .back-button {
-  width: 28px;
-  height: 28px;
+  width: 1.75rem;
+  height: 1.75rem;
 
   flex-shrink: 0;
 
   padding: 0;
 
-  margin-top: 10px;
-  margin-right: 5px;
+  margin-top: 0.625rem;
+  margin-right: 0.3125rem;
 
   display: flex;
 
@@ -375,7 +375,7 @@
 
   line-height: 1.2;
 
-  margin-top: 10px;
+  margin-top: 0.625rem;
 
   color: #163225;
 }
@@ -399,7 +399,7 @@
 
   left: 0;
 
-  top: 48px;
+  top: 3rem;
 
   margin: 0;
 
@@ -419,24 +419,24 @@
 .smart-search-phone .big-guard-card {
   position: relative;
 
-  left: -80px;
-  width: calc(100% + 55px);
+  left: -5rem;
+  width: calc(100% + 3.4375rem);
 
   top: auto;
 
-  min-height: 130px;
+  min-height: 8.125rem;
 
   display: flex;
 
   align-items: flex-start;
 
-  padding: 10px 13px 10px 15px;
+  padding: 0.625rem 0.8125rem 0.625rem 0.9375rem;
 
-  border-radius: 20px;
+  border-radius: 1.25rem;
 
   background: #ffffff;
 
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0.5rem 1.5625rem rgba(0, 0, 0, 0.14);
 
   z-index: 500;
 
@@ -448,14 +448,14 @@
 .smart-search-phone .guard-avatar {
   position: relative;
 
-  width: 68px;
-  height: 105px;
+  width: 4.25rem;
+  height: 6.5625rem;
 
   flex-shrink: 0;
 
   overflow: hidden;
 
-  border-radius: 16px;
+  border-radius: 1rem;
 
   background: linear-gradient(180deg, #e9eee9, #d1ddd4);
 }
@@ -463,11 +463,11 @@
 .smart-search-phone .avatar-head {
   position: absolute;
 
-  width: 32px;
-  height: 36px;
+  width: 2rem;
+  height: 2.25rem;
 
-  left: 18px;
-  top: 24px;
+  left: 1.125rem;
+  top: 1.5rem;
 
   border-radius: 50% 50% 45% 45%;
 
@@ -477,15 +477,15 @@
 .smart-search-phone .avatar-hat {
   position: absolute;
 
-  width: 42px;
-  height: 20px;
+  width: 2.625rem;
+  height: 1.25rem;
 
-  left: 13px;
-  top: 18px;
+  left: 0.8125rem;
+  top: 1.125rem;
 
   background: #222b26;
 
-  border-radius: 14px 14px 5px 5px;
+  border-radius: 0.875rem 0.875rem 0.3125rem 0.3125rem;
 
   z-index: 3;
 }
@@ -493,15 +493,15 @@
 .smart-search-phone .avatar-hat-brim {
   position: absolute;
 
-  width: 50px;
-  height: 7px;
+  width: 3.125rem;
+  height: 0.4375rem;
 
-  left: 9px;
-  top: 34px;
+  left: 0.5625rem;
+  top: 2.125rem;
 
   background: #222b26;
 
-  border-radius: 5px;
+  border-radius: 0.3125rem;
 
   z-index: 4;
 }
@@ -512,39 +512,39 @@
   position: absolute;
 
   left: 50%;
-  top: 2px;
+  top: 0.125rem;
 
   transform: translateX(-50%);
 
   color: #ffffff;
 
-  font-size: 9px;
+  font-size: 0.5625rem;
 }
 
 .smart-search-phone .avatar-body {
   position: absolute;
 
-  left: 10px;
-  bottom: -5px;
+  left: 0.625rem;
+  bottom: -0.3125rem;
 
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
 
   background: #f4f5f4;
 
-  border-radius: 22px 22px 0 0;
+  border-radius: 1.375rem 1.375rem 0 0;
 }
 
 .smart-search-phone .avatar-tie {
   position: absolute;
 
   left: 50%;
-  top: 3px;
+  top: 0.1875rem;
 
   transform: translateX(-50%);
 
-  width: 7px;
-  height: 35px;
+  width: 0.4375rem;
+  height: 2.1875rem;
 
   background: #202923;
 
@@ -560,11 +560,11 @@
 
   flex-direction: column;
 
-  gap: 2px;
+  gap: 0.125rem;
 
-  margin-left: 10px;
+  margin-left: 0.625rem;
 
-  padding-top: 2px;
+  padding-top: 0.125rem;
 }
 
 .smart-search-phone .big-guard-name {
@@ -584,7 +584,7 @@
 
   align-items: center;
 
-  gap: 3px;
+  gap: 0.1875rem;
 
   color: #f1a900;
 
@@ -604,7 +604,7 @@
 }
 
 .smart-search-phone .no-document {
-  margin-left: 3px;
+  margin-left: 0.1875rem;
 
   font-size: var(--phone-body-size);
 
@@ -620,9 +620,9 @@
 
   align-items: center;
 
-  gap: 8px;
+  gap: 0.5rem;
 
-  min-height: 15px;
+  min-height: 0.9375rem;
 }
 
 .smart-search-phone .document-row > span {
@@ -630,7 +630,7 @@
 
   align-items: center;
 
-  gap: 4px;
+  gap: 0.25rem;
 
   font-size: var(--phone-body-size);
 
@@ -649,14 +649,14 @@
   align-items: center;
   justify-content: center;
 
-  width: 12px;
-  height: 12px;
+  width: 0.75rem;
+  height: 0.75rem;
 
   flex-shrink: 0;
 
   border-radius: 50%;
 
-  font-size: 8px;
+  font-size: 0.5rem;
 
   font-weight: 700;
 
@@ -680,7 +680,7 @@
 
   align-items: center;
 
-  gap: 2px;
+  gap: 0.125rem;
 
   margin-top: 1px;
 
@@ -694,8 +694,8 @@
 .smart-search-phone .small-card-position {
   position: relative;
 
-  left: 12px;
-  width: calc(100% - 24px);
+  left: 0.75rem;
+  width: calc(100% - 1.5rem);
 
   z-index: 200;
 }
@@ -715,63 +715,63 @@
 .smart-search-phone .small-guard-card {
   width: 100%;
 
-  min-height: 80px;
+  min-height: 5rem;
 
   display: flex;
 
   align-items: flex-start;
 
-  padding: 6px 8px;
+  padding: 0.375rem 0.5rem;
 
-  border-radius: 15px;
+  border-radius: 0.9375rem;
 
   background: #ffffff;
 
-  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.3125rem 1.125rem rgba(0, 0, 0, 0.1);
 }
 
 .smart-search-phone .small-guard-card .guard-avatar {
-  width: 42px;
-  height: 58px;
+  width: 2.625rem;
+  height: 3.625rem;
 
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .smart-search-phone .small-guard-card .avatar-head {
-  width: 20px;
-  height: 23px;
+  width: 1.25rem;
+  height: 1.4375rem;
 
-  left: 11px;
-  top: 14px;
+  left: 0.6875rem;
+  top: 0.875rem;
 }
 
 .smart-search-phone .small-guard-card .avatar-hat {
-  width: 27px;
-  height: 12px;
+  width: 1.6875rem;
+  height: 0.75rem;
 
-  left: 7px;
-  top: 10px;
+  left: 0.4375rem;
+  top: 0.625rem;
 }
 
 .smart-search-phone .small-guard-card .avatar-hat-brim {
-  width: 32px;
-  height: 4px;
+  width: 2rem;
+  height: 0.25rem;
 
-  left: 4px;
-  top: 20px;
+  left: 0.25rem;
+  top: 1.25rem;
 }
 
 .smart-search-phone .small-guard-card .avatar-body {
-  width: 29px;
-  height: 27px;
+  width: 1.8125rem;
+  height: 1.6875rem;
 
-  left: 6px;
-  bottom: -3px;
+  left: 0.375rem;
+  bottom: -0.1875rem;
 }
 
 .smart-search-phone .small-guard-card .avatar-tie {
-  width: 4px;
-  height: 20px;
+  width: 0.25rem;
+  height: 1.25rem;
 }
 
 .smart-search-phone .small-guard-info {
@@ -785,9 +785,9 @@
 
   flex-direction: column;
 
-  gap: 2px;
+  gap: 0.125rem;
 
-  margin-left: 7px;
+  margin-left: 0.4375rem;
 }
 
 .smart-search-phone .small-guard-name {
@@ -807,7 +807,7 @@
 
   align-items: center;
 
-  gap: 2px;
+  gap: 0.125rem;
 
   font-size: var(--phone-body-size);
 
@@ -819,7 +819,7 @@
 }
 
 .smart-search-phone .small-no-document {
-  margin-left: 3px;
+  margin-left: 0.1875rem;
 
   color: #828282;
 }
@@ -829,7 +829,7 @@
 
   align-items: center;
 
-  gap: 6px;
+  gap: 0.375rem;
 }
 
 .smart-search-phone .small-document-row > span {
@@ -839,7 +839,7 @@
 
   align-items: center;
 
-  gap: 2px;
+  gap: 0.125rem;
 
   font-size: var(--phone-body-size);
 
@@ -851,10 +851,10 @@
 }
 
 .smart-search-phone .small-document-row .document-check {
-  width: 9px;
-  height: 9px;
+  width: 0.5625rem;
+  height: 0.5625rem;
 
-  font-size: 6px;
+  font-size: 0.375rem;
 }
 
 .smart-search-phone .small-review {
@@ -862,7 +862,7 @@
 
   align-items: center;
 
-  gap: 2px;
+  gap: 0.125rem;
 
   margin-top: 1px;
 
@@ -895,10 +895,10 @@
 .smart-search-phone .booking-area {
   position: absolute;
 
-  left: 18px;
-  right: 18px;
+  left: 1.125rem;
+  right: 1.125rem;
 
-  bottom: 15px;
+  bottom: 0.9375rem;
 
   z-index: 600;
 
@@ -914,7 +914,7 @@
 
   height: 1px;
 
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
 
   background: rgba(0, 0, 0, 0.08);
 }
@@ -934,11 +934,11 @@
 .smart-search-phone .booking-button {
   width: 100%;
 
-  height: 31px;
+  height: 1.9375rem;
 
   border: none;
 
-  border-radius: 9px;
+  border-radius: 0.5625rem;
 
   background: #dadada;
 
@@ -947,7 +947,7 @@
   font-family: var(--phone-font-family);
 
   font-size: var(--phone-body-size);
-  margin-top: 5px;
+  margin-top: 0.3125rem;
   padding: 0;
 
   font-weight: var(--phone-body-weight);
@@ -958,9 +958,9 @@
 .smart-search-phone .side-button {
   position: absolute;
 
-  width: 5px;
+  width: 0.3125rem;
 
-  border-radius: 3px;
+  border-radius: 0.1875rem;
 
   background: linear-gradient(90deg, #111, #555, #181b19);
 
@@ -968,60 +968,60 @@
 }
 
 .smart-search-phone .action-button {
-  left: -5px;
+  left: -0.3125rem;
 
-  top: 145px;
+  top: 9.0625rem;
 
-  height: 30px;
+  height: 1.875rem;
 }
 
 .smart-search-phone .volume-up {
-  left: -5px;
+  left: -0.3125rem;
 
-  top: 205px;
+  top: 12.8125rem;
 
-  height: 58px;
+  height: 3.625rem;
 }
 
 .smart-search-phone .volume-down {
-  left: -5px;
+  left: -0.3125rem;
 
-  top: 275px;
+  top: 17.1875rem;
 
-  height: 58px;
+  height: 3.625rem;
 }
 
 .smart-search-phone .power-button {
-  right: -5px;
+  right: -0.3125rem;
 
-  top: 215px;
+  top: 13.4375rem;
 
-  height: 95px;
+  height: 5.9375rem;
 }
 
 .smart-search-phone .phone-camera {
   position: absolute;
 
-  top: 25px;
-  left: 25px;
+  top: 1.5625rem;
+  left: 1.5625rem;
 
-  width: 105px;
-  height: 135px;
+  width: 6.5625rem;
+  height: 8.4375rem;
 
-  border-radius: 28px;
+  border-radius: 1.75rem;
 
   background: linear-gradient(145deg, #3c4741, #151c18);
 
   box-shadow:
-    inset 1px 1px 3px rgba(255, 255, 255, 0.25),
-    5px 7px 15px rgba(0, 0, 0, 0.35);
+    inset 1px 1px 0.1875rem rgba(255, 255, 255, 0.25),
+    0.3125rem 0.4375rem 0.9375rem rgba(0, 0, 0, 0.35);
 }
 
 .smart-search-phone .camera-lens {
   position: absolute;
 
-  width: 42px;
-  height: 42px;
+  width: 2.625rem;
+  height: 2.625rem;
 
   border-radius: 50%;
 
@@ -1032,42 +1032,42 @@
     #050806 70%
   );
 
-  border: 4px solid #101612;
+  border: 0.25rem solid #101612;
 
   box-shadow:
-    inset 0 0 8px rgba(255, 255, 255, 0.15),
-    0 2px 5px rgba(0, 0, 0, 0.5);
+    inset 0 0 0.5rem rgba(255, 255, 255, 0.15),
+    0 0.125rem 0.3125rem rgba(0, 0, 0, 0.5);
 }
 
 .smart-search-phone .lens-1 {
-  left: 10px;
-  top: 10px;
+  left: 0.625rem;
+  top: 0.625rem;
 }
 
 .smart-search-phone .lens-2 {
-  right: 10px;
-  top: 10px;
+  right: 0.625rem;
+  top: 0.625rem;
 }
 
 .smart-search-phone .lens-3 {
-  left: 10px;
-  bottom: 10px;
+  left: 0.625rem;
+  bottom: 0.625rem;
 }
 
 .smart-search-phone .camera-flash {
   position: absolute;
 
-  right: 18px;
-  bottom: 24px;
+  right: 1.125rem;
+  bottom: 1.5rem;
 
-  width: 17px;
-  height: 17px;
+  width: 1.0625rem;
+  height: 1.0625rem;
 
   border-radius: 50%;
 
   background: #dce6d8;
 
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.35);
+  box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.35);
 }
 
 .smart-search-phone .apple-logo {
@@ -1080,7 +1080,7 @@
 
   color: rgba(255, 255, 255, 0.72);
 
-  font-size: 62px;
+  font-size: 3.875rem;
 
   opacity: 0.65;
 }
@@ -1093,7 +1093,7 @@
 
 @media (max-width: 700px) {
   .smart-search-phone {
-    height: 620px;
+    height: 38.75rem;
   }
 
   .smart-search-phone .phone3d-wrapper {
@@ -1103,7 +1103,7 @@
 
 @media (max-width: 450px) {
   .smart-search-phone {
-    height: 540px;
+    height: 33.75rem;
   }
 
   .smart-search-phone .phone3d-wrapper {

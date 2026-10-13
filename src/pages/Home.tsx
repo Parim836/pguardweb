@@ -14,8 +14,8 @@ import { useRef } from "react";
 
 import { Link } from "react-router-dom";
 
-import HeroVideos from "../components/HeroVideos";
 import SolutionAccordion from "../components/SolutionAccordion";
+import HeroPhone from "../components/HeroPhone";
 
 import "../styles.css";
 
@@ -30,7 +30,8 @@ function Home() {
     <div ref={pageRef} className="home-page">
       <section className="hero">
         <div className="container hero-grid">
-          <div className="hero-copy hero-content">
+          <div className="hero-content">
+          <div className="hero-copy">
             <span className="eyebrow">PROFESSIONAL GUARD CALLING</span>
 
             <h1>
@@ -56,12 +57,12 @@ function Home() {
             <div className="trust-row">
               <span>
                 <ShieldCheck />
-                {t("ตรวจสอบประวัติแล้ว")}
+                {t("ตรวจสอบประวัติ")}
               </span>
 
               <span>
                 <FileCheck2 />
-                {t("มีใบอนุญาตถูกต้อง")}
+                {t("ตรวจสอบใบอนุญาตรปภ.")}
               </span>
 
               <span>
@@ -71,8 +72,9 @@ function Home() {
             </div>
           </div>
 
-          <div className="hero-visual hero-visual--videos hero-content">
-            <HeroVideos />
+          </div>
+          <div className="hero-visual hero-visual--phone hero-content">
+            <HeroPhone />
           </div>
         </div>
       </section>

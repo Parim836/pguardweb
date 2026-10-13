@@ -1,17 +1,17 @@
 .hourly-report {
   display: grid;
-  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.2fr);
+  grid-template-columns: minmax(17.5rem, 0.8fr) minmax(0, 1.2fr);
   align-items: center;
-  gap: clamp(36px, 5vw, 80px);
-  max-width: 1120px;
+  gap: clamp(2.25rem, 5vw, 5rem);
+  max-width: 70rem;
   margin: 0 auto;
-  padding: 16px 0;
+  padding: 1rem 0;
 }
 
 .hourly-report-content h2 {
-  margin: 0 0 18px;
+  margin: 0 0 1.125rem;
   color: #10251b;
-  font-size: clamp(30px, 3.5vw, 42px);
+  font-size: clamp(1.875rem, 3.5vw, 2.625rem);
   font-weight: 600;
   line-height: 1.35;
 }
@@ -20,15 +20,15 @@
   color: #08783f;
 }
 .hourly-report-lead {
-  margin: 0 0 28px;
+  margin: 0 0 1.75rem;
   color: #718078;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.9;
 }
 .hourly-report-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px 24px;
+  gap: 1.75rem 1.5rem;
 }
 .hourly-report-card {
   min-width: 0;
@@ -37,25 +37,25 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 42px;
-  height: 42px;
-  margin-bottom: 16px;
-  border-radius: 12px;
+  width: 2.625rem;
+  height: 2.625rem;
+  margin-bottom: 1rem;
+  border-radius: 0.75rem;
   background: #e0f0e6;
   color: #08783f;
 }
 .hourly-report-label {
   display: block;
-  margin-bottom: 7px;
+  margin-bottom: 0.4375rem;
   color: #08783f;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
-  letter-spacing: 1.1px;
+  letter-spacing: 0.06875rem;
   line-height: 1.6;
 }
 .hourly-report-card h3 {
-  margin: 0 0 9px;
-  font-size: 17px;
+  margin: 0 0 0.5625rem;
+  font-size: 1.0625rem;
   font-weight: 500;
   line-height: 1.5;
   color: #23342b;
@@ -63,24 +63,24 @@
 .hourly-report-card p {
   margin: 0;
   color: #718078;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 1.85;
 }
 
 .hourly-report-visual {
   position: relative;
-  top: 24px;
+  top: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px 0;
+  padding: 1.875rem 0;
   min-width: 0;
 }
 
 @media (max-width: 960px) {
   .hourly-report {
-    grid-template-columns: minmax(250px, 0.8fr) minmax(0, 1fr);
-    gap: 28px;
+    grid-template-columns: minmax(15.625rem, 0.8fr) minmax(0, 1fr);
+    gap: 1.75rem;
   }
   .hourly-report-grid {
     grid-template-columns: 1fr;
@@ -91,14 +91,14 @@
   .hourly-report {
     grid-template-columns: 1fr;
     margin-top: 0;
-    padding-top: 8px;
-    gap: 24px;
+    padding-top: 0.5rem;
+    gap: 1.5rem;
   }
   .hourly-report-content {
     grid-row: 1;
   }
   .hourly-report-visual {
-    width: min(380px, 100%);
+    width: min(23.75rem, 100%);
     margin: 0 auto;
   }
 }

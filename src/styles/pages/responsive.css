@@ -1,34 +1,34 @@
 @media (max-width: 800px) {
   .page-head {
-    padding: 30px 0 20px;
+    padding: 1.875rem 0 1.25rem;
   }
 
   .page-head h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .page-head p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .documents-page {
-    padding: 0 12px 25px;
+    padding: 0 0.75rem 1.5625rem;
   }
 
   .documents-steps {
     grid-template-columns: 1fr;
 
-    gap: 8px;
+    gap: 0.5rem;
 
-    margin: 20px 0 20px;
+    margin: 1.25rem 0 1.25rem;
   }
 
   .document-step {
-    min-height: 64px;
+    min-height: 4rem;
 
-    padding: 10px 12px;
+    padding: 0.625rem 0.75rem;
 
-    border-radius: 15px;
+    border-radius: 0.9375rem;
   }
 
   .document-step:not(:last-child)::after {
@@ -40,25 +40,25 @@
   }
 
   .document-step-number {
-    width: 34px;
-    height: 34px;
+    width: 2.125rem;
+    height: 2.125rem;
 
-    margin-right: 8px;
+    margin-right: 0.5rem;
 
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .document-step-icon {
-    flex-basis: 34px;
+    flex-basis: 2.125rem;
 
-    width: 34px;
-    height: 34px;
+    width: 2.125rem;
+    height: 2.125rem;
 
-    margin-right: 8px;
+    margin-right: 0.5rem;
   }
 
   .document-step-title {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .document-preview {
@@ -66,31 +66,31 @@
 
     min-height: 0;
 
-    border-radius: 20px;
+    border-radius: 1.25rem;
   }
 
   .document-preview-info {
-    padding: 28px 22px 24px;
+    padding: 1.75rem 1.375rem 1.5rem;
   }
 
   .document-preview-info h2 {
-    font-size: 27px;
+    font-size: 1.6875rem;
   }
 
   .document-description {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .document-requirements {
-    margin-top: 22px;
+    margin-top: 1.375rem;
   }
 
   .document-requirements h3 {
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .requirement-item {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .document-preview-visual {
@@ -98,50 +98,50 @@
 
     border-top: 1px solid #e2e9e5;
 
-    padding: 20px 16px 18px;
+    padding: 1.25rem 1rem 1.125rem;
   }
 
   .document-visual-header {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
 
   .document-verified {
-    min-height: 42px;
+    min-height: 2.625rem;
 
-    padding: 6px 10px;
+    padding: 0.375rem 0.625rem;
 
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .document-image-wrapper {
-    padding: 8px 0;
+    padding: 0.5rem 0;
   }
 
   .document-image-card {
-    height: 280px;
+    height: 17.5rem;
 
-    border-radius: 17px;
+    border-radius: 1.0625rem;
   }
 
   .document-image-note {
     padding-left: 0;
 
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .document-controls {
-    padding-top: 20px;
+    padding-top: 1.25rem;
   }
 
   .document-control {
-    width: 44px;
-    height: 44px;
+    width: 2.75rem;
+    height: 2.75rem;
   }
 
   .document-counter {
-    height: 44px;
+    height: 2.75rem;
 
-    min-width: 95px;
+    min-width: 5.9375rem;
   }
 
   .documents-trust-bar {
@@ -150,7 +150,7 @@
   }
 
   .documents-overview {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 
   .documents-card-grid {
@@ -160,12 +160,12 @@
   .business-layout {
     grid-template-columns: 1fr;
 
-    gap: 28px;
+    gap: 1.75rem;
   }
 
   .business-visual {
-    min-height: 400px;
-    height: 400px;
+    min-height: 25rem;
+    height: 25rem;
 
     border-radius: 0;
 
@@ -173,18 +173,18 @@
   }
 
   .business-visual::before {
-    top: 34px;
+    top: 2.125rem;
 
-    width: 390px;
-    height: 390px;
+    width: 24.375rem;
+    height: 24.375rem;
   }
 
   .business-visual .smart-search-phone {
-    top: 55px;
+    top: 3.4375rem;
 
     bottom: auto;
 
-    height: 660px;
+    height: 41.25rem;
 
     transform: translateX(-50%) scale(0.7) !important;
 
@@ -192,31 +192,31 @@
   }
 
   .business-intro {
-    padding: 6px 4px 0;
+    padding: 0.375rem 0.25rem 0;
   }
 
   .business-intro h2 {
-    font-size: 32px;
+    font-size: 2rem;
   }
 
   .business-intro-lead {
-    font-size: 13px;
+    font-size: 0.8125rem;
   }
 
   .business-feature {
-    min-height: 44px;
+    min-height: 2.75rem;
 
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .business-cta {
-    margin-top: 24px;
+    margin-top: 1.5rem;
   }
 
   .guard-layout {
-    max-width: 900px;
+    max-width: 56.25rem;
 
-    margin-top: 28px;
+    margin-top: 1.75rem;
   }
 
   .business-visual.guard-visual {
@@ -238,7 +238,7 @@
     top: auto;
     left: auto;
 
-    height: 720px;
+    height: 45rem;
 
     transform: none !important;
 
@@ -252,69 +252,69 @@
   }
 
   .business-page-content .business-layout {
-    margin-top: -8px;
+    margin-top: -0.5rem;
   }
 
   .business-page-content .business-how-it-works {
-    margin-top: 44px;
+    margin-top: 2.75rem;
 
-    padding: 30px 12px 42px;
+    padding: 1.875rem 0.75rem 2.625rem;
 
-    border-radius: 22px;
+    border-radius: 1.375rem;
   }
 
   .business-page-content .business-section-heading {
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 
     text-align: left;
   }
 
   .business-page-content .business-section-heading h2 {
-    font-size: 28px;
+    font-size: 1.75rem;
   }
 
   .business-page-content .business-section-heading p {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .business-page-content .business-steps {
-    gap: 22px;
+    gap: 1.375rem;
 
-    padding: 0 5px;
+    padding: 0 0.3125rem;
   }
 
   .business-page-content .business-steps::before {
     left: 50%;
 
-    top: -14px;
-    bottom: -14px;
+    top: -0.875rem;
+    bottom: -0.875rem;
   }
 
   .business-page-content .business-step {
     width: 78%;
 
-    min-height: 88px;
+    min-height: 5.5rem;
 
     grid-template-columns:
       minmax(0, 1fr)
-      34px;
+      2.125rem;
 
-    column-gap: 10px;
+    column-gap: 0.625rem;
 
-    padding: 12px 14px 12px 16px;
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
 
-    border-radius: 42px;
+    border-radius: 2.625rem;
   }
 
   .business-page-content .business-step:nth-child(odd) {
     margin-right: auto;
     margin-left: 0;
 
-    padding-left: 16px;
-    padding-right: 48px;
+    padding-left: 1rem;
+    padding-right: 3rem;
 
     grid-template-columns:
-      34px
+      2.125rem
       minmax(0, 1fr);
   }
 
@@ -322,30 +322,30 @@
     margin-left: auto;
     margin-right: 0;
 
-    padding-left: 48px;
-    padding-right: 16px;
+    padding-left: 3rem;
+    padding-right: 1rem;
 
     grid-template-columns:
       minmax(0, 1fr)
-      34px;
+      2.125rem;
   }
 
   .business-page-content .business-step::before {
-    width: 76px;
+    width: 4.75rem;
 
-    font-size: 26px;
+    font-size: 1.625rem;
   }
 
   .business-page-content .business-step:nth-child(odd)::before {
-    right: -44px;
+    right: -2.75rem;
 
-    border-radius: 0 34px 34px 0;
+    border-radius: 0 2.125rem 2.125rem 0;
   }
 
   .business-page-content .business-step:nth-child(even)::before {
-    left: -44px;
+    left: -2.75rem;
 
-    border-radius: 34px 0 0 34px;
+    border-radius: 2.125rem 0 0 2.125rem;
   }
 
   .business-page-content .business-step:nth-child(odd) > .business-step-icon {
@@ -359,8 +359,8 @@
   }
 
   .business-page-content .business-step-icon {
-    width: 34px;
-    height: 34px;
+    width: 2.125rem;
+    height: 2.125rem;
   }
 
   .business-page-content .business-step:nth-child(odd) > h3,
@@ -382,13 +382,13 @@
   }
 
   .business-page-content .business-step > h3 {
-    font-size: 15px;
+    font-size: 0.9375rem;
 
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   }
 
   .business-page-content .business-step > p {
-    font-size: 12px;
+    font-size: 0.75rem;
 
     line-height: 1.55;
   }
